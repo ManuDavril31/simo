@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script defer src="/assets/js/menu.js"></script>
+</head>
+<body>
+  <header>
+    <h1 class="logo"><a href="/">{{ site.title }}</a></h1>
+    <nav>
+      <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="/">Inicio</a></li>
+        <li><a href="#convocatorias">Convocatorias</a></li>
+        <li><a href="#guia">Guía</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#enlaces">Enlaces</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    <p>© {{ site.title }} {{ site.time | date: '%Y' }} | Sitio informativo no oficial</p>
+  </footer>
+</body>
+</html>
