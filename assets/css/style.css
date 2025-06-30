@@ -4,28 +4,41 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 16px; /* Ajustar el tamaño de fuente general */
+}
+
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Segoe UI", sans-serif;
   line-height: 1.6;
-  background: #f7f7f7;
+  background: linear-gradient(135deg, #f7f7f7 60%, #e6f0ff 100%);
   color: #222;
+  font-size: 1rem;
 }
 
 header {
-  background: #004080;
+  background: linear-gradient(90deg, #004080 80%, #007bff 100%);
   color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 1.2rem 2.5rem;
   flex-wrap: wrap;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+}
+
+.logo {
+  flex: 1 1 100%;
+  text-align: center;
 }
 
 .logo a {
   text-decoration: none;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
+  letter-spacing: 1px;
+  text-shadow: 1px 2px 8px rgba(0, 0, 0, 0.08);
 }
 
 nav {
@@ -36,7 +49,7 @@ nav {
   display: none;
   background: none;
   color: #fff;
-  font-size: 1.8rem;
+  font-size: 2rem;
   border: none;
   cursor: pointer;
 }
@@ -44,49 +57,185 @@ nav {
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .nav-links a {
   text-decoration: none;
-  color: white;
-  font-weight: bold;
+  color: #fff;
+  font-weight: 600;
+  padding: 0.5rem 1.2rem;
+  border-radius: 4px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.nav-links a:hover,
+.nav-links a:focus {
+  background: #fff;
+  color: #004080;
 }
 
 .hero {
-  background: linear-gradient(to right, #004080, #007bff);
+  background: linear-gradient(90deg, #004080 60%, #007bff 100%);
   color: white;
-  padding: 3rem 1rem;
+  padding: 2rem 1rem 2.5rem 1rem;
   text-align: center;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 24px rgba(0, 64, 128, 0.08);
 }
 
-.btn {
-  background: #fff;
+h1,
+h2,
+h3 {
+  font-family: "Segoe UI", "Arial", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.7em;
+}
+h1 {
+  font-size: 2.2rem;
+}
+h2 {
+  font-size: 1.5rem;
   color: #004080;
-  padding: 0.6rem 1.2rem;
-  border-radius: 5px;
-  text-decoration: none;
-  font-weight: bold;
-  display: inline-block;
-  margin-top: 1rem;
+}
+h3 {
+  font-size: 1.2rem;
+  color: #007bff;
 }
 
 section {
-  padding: 2rem 1rem;
+  padding: 2.5rem 1.5rem;
   max-width: 1000px;
-  margin: auto;
+  margin: 2.5rem auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+  border: 1px solid #e3eaf5;
+  overflow: auto;
+}
+
+.btn {
+  background: linear-gradient(90deg, #fff 60%, #e6f0ff 100%);
+  color: #004080;
+  padding: 0.7rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 1.2rem;
+  box-shadow: 0 2px 8px rgba(0, 64, 128, 0.07);
+  border: 1px solid #b3d1ff;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+.btn:hover,
+.btn:focus {
+  background: #004080;
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(0, 64, 128, 0.13);
 }
 
 footer {
   text-align: center;
-  background: #eee;
-  padding: 1rem;
+  background: linear-gradient(90deg, #e6f0ff 60%, #b3d1ff 100%);
+  color: #004080;
+  padding: 1.2rem;
   margin-top: 2rem;
+  border-top: 2px solid #b3d1ff;
+  font-size: 1rem;
+  letter-spacing: 0.2px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #e3eaf5;
+  margin: 2rem 0;
+}
+
+ul,
+ol {
+  padding-left: 2.2em;
+}
+
+ul.custom-icons {
+  list-style: none;
+  padding-left: 0;
+}
+ul.custom-icons li {
+  position: relative;
+  padding-left: 2em;
+  margin-bottom: 0.7em;
+}
+ul.custom-icons li::before {
+  content: "\1F539"; /* Círculo grande azul */
+  position: absolute;
+  left: 0;
+  top: 0.1em;
+  font-size: 1.2em;
+  color: #007bff;
+  transition: color 0.2s;
+}
+ul.custom-icons li:hover::before {
+  color: #004080;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  background: #fff;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+  overflow: hidden;
+}
+th,
+td {
+  border: 1px solid #e3eaf5;
+  padding: 0.85rem 1.2rem;
+  text-align: left;
+}
+th {
+  background: linear-gradient(90deg, #004080 80%, #007bff 100%);
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+tr:nth-child(even) {
+  background: #f3f6fa;
+}
+tr:hover {
+  background: #e6f0ff;
+  transition: background 0.2s;
+}
+td {
+  font-size: 1rem;
 }
 
 @media (max-width: 768px) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    flex: 1 1 auto;
+  }
+  nav {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: auto;
+  }
   .menu-toggle {
     display: block;
+    z-index: 1002;
+    margin-left: auto;
+    margin-right: 0;
+    align-self: flex-end;
+    position: relative;
+    right: 0;
   }
 
   .nav-links {
@@ -95,11 +244,72 @@ footer {
     position: absolute;
     right: 0;
     top: 100%;
-    width: 200px;
+    width: 90vw;
+    max-width: 320px;
+    min-width: 180px;
     display: none;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+    border-radius: 0 0 12px 12px;
+    padding: 1rem 0.5rem;
+    z-index: 1001;
+    animation: slideDown 0.3s;
+  }
+
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 
   .nav-links.active {
     display: flex;
+  }
+
+  .nav-links a {
+    color: #fff;
+    padding: 0.8rem 1rem;
+    border-radius: 6px;
+    margin: 0.2rem 0;
+    font-size: 1.1rem;
+    text-align: left;
+    transition: background 0.2s, color 0.2s;
+  }
+  .nav-links a:hover,
+  .nav-links a:focus {
+    background: #fff;
+    color: #004080;
+  }
+
+  section {
+    margin: 1rem 0.2rem;
+    padding: 1rem 0.2rem;
+  }
+
+  .hero {
+    padding: 1.2rem 0.5rem 1.5rem 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-links {
+    width: 100vw;
+    min-width: unset;
+    max-width: unset;
+    left: 0;
+    right: 0;
+    border-radius: 0 0 12px 12px;
+    padding: 1rem 0.2rem;
+  }
+  .nav-links.active {
+    display: flex;
+  }
+  .menu-toggle {
+    right: 0;
+    margin-right: 0.5rem;
   }
 }
