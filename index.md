@@ -14,6 +14,9 @@ permalink: /
 
 <section id="convocatorias">
   <h2>Convocatorias recientes</h2>
+  <div id="convocatorias-dinamicas">
+    <p>Cargando información desde Google Sheets...</p>
+  </div>
   <ul>
     <li><strong>Convocatoria 2025:</strong> Abierta hasta el 10 de julio.</li>
     <li><strong>Pruebas Fase II:</strong> Se publicarán el 25 de julio.</li>
