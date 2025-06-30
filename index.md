@@ -13,15 +13,17 @@ permalink: /
 </section>
 
 <section id="convocatorias">
-  <h2>Convocatorias recientes</h2>
-  <div id="convocatorias-dinamicas">
-    <p>Cargando información desde Google Sheets...</p>
-  </div>
-  <ul>
-    <li><strong>Convocatoria 2025:</strong> Abierta hasta el 10 de julio.</li>
-    <li><strong>Pruebas Fase II:</strong> Se publicarán el 25 de julio.</li>
-    <li><strong>Inscripciones:</strong> Inician el 15 de agosto.</li>
-  </ul>
+  <details open class="convocatorias-details">
+    <summary><h2 style="display:inline">Convocatorias recientes</h2></summary>
+    <div id="convocatorias-dinamicas">
+      <p>Cargando información desde Google Sheets...</p>
+    </div>
+    <ul>
+      <li><strong>Convocatoria 2025:</strong> Abierta hasta el 10 de julio.</li>
+      <li><strong>Pruebas Fase II:</strong> Se publicarán el 25 de julio.</li>
+      <li><strong>Inscripciones:</strong> Inician el 15 de agosto.</li>
+    </ul>
+  </details>
 </section>
 
 <section id="guia">

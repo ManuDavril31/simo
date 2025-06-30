@@ -216,6 +216,47 @@ table a {
   text-decoration: none;
 }
 
+/* Estilo para details de convocatorias */
+.convocatorias-details {
+  margin: 1.5rem 0;
+  border-radius: 10px;
+  background: #f3f6fa;
+  box-shadow: 0 2px 8px rgba(0, 64, 128, 0.07);
+  border: 1px solid #e3eaf5;
+  padding: 0.5rem 1rem 1rem 1rem;
+}
+.convocatorias-details[open] {
+  background: #e6f0ff;
+}
+.convocatorias-details summary {
+  cursor: pointer;
+  outline: none;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #004080;
+  padding: 0.7rem 0;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+.convocatorias-details summary::-webkit-details-marker {
+  display: none;
+}
+.convocatorias-details summary::before {
+  content: "\25BC";
+  display: inline-block;
+  margin-right: 0.7em;
+  font-size: 1.1em;
+  color: #007bff;
+  transition: transform 0.2s;
+}
+.convocatorias-details[open] summary::before {
+  transform: rotate(180deg);
+  color: #004080;
+}
+
 @media (max-width: 768px) {
   header {
     flex-direction: row;
