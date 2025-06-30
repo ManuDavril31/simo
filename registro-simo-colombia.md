@@ -82,23 +82,28 @@ permalink: /registro-simo-colombia/
 
   <section>
     <h2>FAQs sobre el registro en SIMO Colombia</h2>
-    <dl>
-      <dt>¿Es gratis registrarse en SIMO?</dt>
-      <dd>Sí, no tiene ningún costo.</dd>
-
-      <dt>¿Desde dónde puedo registrarme?</dt>
-      <dd>Desde cualquier lugar del país con internet.</dd>
-
-      <dt>¿Puedo tener doble nacionalidad?</dt>
-      <dd>Sí, pero debes usar tu cédula colombiana.</dd>
-
-      <dt>¿Puedo postularme a varias vacantes?</dt>
-      <dd>Una sola por convocatoria.</dd>
-
-      <dt>¿Necesito experiencia previa?</dt>
-      <dd>No es obligatorio, pero es valorado.</dd>
-    </dl>
-
+    <div class="faqs-details">
+      <details>
+        <summary>¿Es gratis registrarse en SIMO?</summary>
+        <p>Sí, no tiene ningún costo.</p>
+      </details>
+      <details>
+        <summary>¿Desde dónde puedo registrarme?</summary>
+        <p>Desde cualquier lugar del país con internet.</p>
+      </details>
+      <details>
+        <summary>¿Puedo tener doble nacionalidad?</summary>
+        <p>Sí, pero debes usar tu cédula colombiana.</p>
+      </details>
+      <details>
+        <summary>¿Puedo postularme a varias vacantes?</summary>
+        <p>Una sola por convocatoria.</p>
+      </details>
+      <details>
+        <summary>¿Necesito experiencia previa?</summary>
+        <p>No es obligatorio, pero es valorado.</p>
+      </details>
+    </div>
   </section>
 
   <section>
