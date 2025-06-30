@@ -129,20 +129,6 @@ permalink: /
   </ul>
 </section>
 
-<section id="guia">
-  <h2>Guía para Inscribirse</h2>
-  <p>Aprende paso a paso cómo registrarte correctamente en SIMO y no perderte ningún detalle del proceso.</p>
-</section>
-
-<section id="faq">
-  <h2>Preguntas Frecuentes</h2>
-  <ul>
-    <li>¿Qué es SIMO?</li>
-    <li>¿Cómo saber si estoy inscrito?</li>
-    <li>¿Dónde consultar resultados?</li>
-  </ul>
-</section>
-
 <section id="enlaces">
   <h2>Enlaces útiles</h2>
   <ul>
