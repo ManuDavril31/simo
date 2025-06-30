@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Inicio
+description: "Portal informativo sobre SIMO Colombia: convocatorias, inscripciones, registro y recursos para aspirantes a empleo público."
+keywords: simo, colombia, empleo público, convocatorias, inscripciones, registro, cnsc
+permalink: /
 ---
 
 <section class="hero">

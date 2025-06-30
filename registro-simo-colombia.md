@@ -2,6 +2,7 @@
 layout: default
 title: Inicio
 description: Descubre cómo registrarse en SIMO Colombia 2025 con esta guía paso a paso. Incluye requisitos, capturas reales, errores comunes y consejos clave para tu postulación.
+permalink: /registro-simo-colombia/
 ---
 
 <section class="hero">
