@@ -7,25 +7,26 @@ permalink: /
 ---
 
 <section class="hero">
-  <h1>Convocatorias SIMO Colombia 2025: Todo lo que Necesitas Saber para Ingresar al Empleo Público</h1>
+  <h1>Convocatorias SIMO Colombia 2026: Todo lo que Necesitas Saber para Ingresar al Empleo Público</h1>
   <p>Explora convocatorias, pasos para inscribirte y recursos clave para aspirantes.</p>
   <a href="#convocatorias" class="btn">Ver Convocatorias</a>
 </section>
 
+
 <section class="intro">
-  <p>El acceso al empleo público en Colombia ha sido modernizado y centralizado gracias a la plataforma SIMO, una herramienta creada por la Comisión Nacional del Servicio Civil (CNSC) para garantizar procesos de selección transparentes, meritocráticos y equitativos. En este blog, te proporcionamos información actualizada, práctica y detallada sobre cómo participar con éxito en las convocatorias SIMO Colombia 2025.</p>
+  <p>El acceso al empleo público en Colombia ha sido modernizado y centralizado gracias a la plataforma SIMO, una herramienta creada por la Comisión Nacional del Servicio Civil (CNSC) para garantizar procesos de selección transparentes, meritocráticos y equitativos. En este blog, te proporcionamos información actualizada, práctica y detallada sobre cómo participar con éxito en las convocatorias SIMO Colombia 2026.</p>
   <p>Ya sea que seas un bachiller, técnico, tecnólogo o profesional, aquí encontrarás toda la orientación que necesitas para postularte a cargos en entidades del Estado.</p>
 </section>
 
 <section id="convocatorias">
   <details open class="convocatorias-details">
-    <summary><h2 style="display:inline">Procesos de selección en desarrollo
+    <summary><h2 style="display:inline">Convocatorias SIMO 2026 | Procesos de selección en desarrollo
 </h2></summary>
     <div id="convocatorias-dinamicas">
       <p>Cargando información...</p>
     </div>
     <ul>
-      <li><strong>Convocatoria 2025:</strong> Abierta hasta el 10 de julio.</li>
+      <li><strong>Convocatoria 2026:</strong> Abierta hasta el 10 de julio.</li>
       <li><strong>Pruebas Fase II:</strong> Se publicarán el 25 de julio.</li>
       <li><strong>Inscripciones:</strong> Inician el 15 de agosto.</li>
     </ul>
