@@ -28,7 +28,7 @@ permalink: /registro-simo-colombia/
   </ol>
   <p>Se encontrará con un formulario el cual deberá llenar para completar el proceso de registro en la plataforma SIMO. A través de este procedimiento, los usuarios podrán crear su cuenta personal ingresando sus datos básicos, validando su correo electrónico y completando la información requerida. Este registro es fundamental para acceder a los servicios ofrecidos por el sistema, por lo que es importante diligenciar cada campo con información verídica y verificar cuidadosamente los datos antes de enviar la solicitud.</p>
 
-  <img src="/assets/images/registro-simo-colombia/página-de-registro-de-la-página-oficial-de-SIMO.png" alt="página de registro de la página oficial de SIMO" />
+  <img loading="lazy" decoding="async" src="/assets/images/registro-simo-colombia/página-de-registro-de-la-página-oficial-de-SIMO.png" alt="página de registro de la página oficial de SIMO" />
 
 </section>
 
@@ -86,7 +86,7 @@ permalink: /registro-simo-colombia/
   <h2>Iniciar sesión</h2>
   <p>Una vez registrado, ingresa en este enlace -> <a href="https://simo.cnsc.gov.co/" target="_blank">https://simo.cnsc.gov.co/</a></p>
 
-  <img src="/assets/images/registro-simo-colombia/iniciar-sesion-SIMO.jpg" alt="iniciar sesión SIMO" />
+  <img loading="lazy" decoding="async" src="/assets/images/registro-simo-colombia/iniciar-sesion-SIMO.jpg" alt="iniciar sesión SIMO" />
   
   <ul>
     <li>Ingresa con tu usuario y contraseña</li>
@@ -104,7 +104,7 @@ permalink: /registro-simo-colombia/
   </ul>
   <p>⚠️ Este paso es obligatorio porque el sistema usa esta información para validar tu inscripción.</p>
 
-  <img src="/assets/images/registro-simo-colombia/Completar-tu-perfil-SIMO.jpg" alt="Completar tu perfil SIMO" />
+  <img loading="lazy" decoding="async" src="/assets/images/registro-simo-colombia/Completar-tu-perfil-SIMO.jpg" alt="Completar tu perfil SIMO" />
   
 </section>
 
@@ -120,7 +120,7 @@ permalink: /registro-simo-colombia/
   <h2>Parte 2: Cómo inscribirse a un empleo en SIMO 2026</h2>
   
   <h3>1. Acceder al sistema</h3>
-  <img src="/assets/images/registro-simo-colombia/iniciar-sesion-SIMO.jpg" alt="iniciar sesión SIMO" />
+  <img loading="lazy" decoding="async" src="/assets/images/registro-simo-colombia/iniciar-sesion-SIMO.jpg" alt="iniciar sesión SIMO" />
   <ul>
     <li>Ingresa a SIMO</li>
     <li>Digita usuario y contraseña</li>
@@ -133,11 +133,11 @@ permalink: /registro-simo-colombia/
     <li>Haz clic para ver las vacantes</li>    
   </ul>
 
-  <img src="/assets/images/registro-simo-colombia/Oferta-de-empleos-SIMO.jpg" alt="Oferta de empleos SIMO" />
+  <img loading="lazy" decoding="async" src="/assets/images/registro-simo-colombia/Oferta-de-empleos-SIMO.jpg" alt="Oferta de empleos SIMO" />
 
   <h3>3. Buscar convocatorias</h3>
 
-  <img src="/assets/images/registro-simo-colombia/Buscar-convocatorias-SIMO.png" alt="Buscar convocatorias SIMO" />
+  <img loading="lazy" decoding="async" src="/assets/images/registro-simo-colombia/Buscar-convocatorias-SIMO.png" alt="Buscar convocatorias SIMO" />
 
   <ul>
     <li>Selecciona una convocatoria</li>
@@ -159,7 +159,7 @@ permalink: /registro-simo-colombia/
     <li>💡 Puedes guardarlos como favoritos ❤️</li>
   </ul>
   
-  <img src="/assets/images/registro-simo-colombia/Revisar-empleos-disponibles-SIMO.jpg" alt="Revisar empleos disponibles SIMO" />
+  <img loading="lazy" decoding="async" src="/assets/images/registro-simo-colombia/Revisar-empleos-disponibles-SIMO.jpg" alt="Revisar empleos disponibles SIMO" />
   
   <h3>5. Seleccionar empleo</h3>
   <p>Haz clic en Seleccionar empleo (ícono de nube)</p>

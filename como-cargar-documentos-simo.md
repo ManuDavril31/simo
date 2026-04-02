@@ -36,7 +36,7 @@ permalink: /como-cargar-documentos-simo/
   </ul>
   <p>👉 Estos requisitos determinan exactamente qué documentos debes cargar en el SIMO</p>
 
-  <img src="/assets/images/como-cargar-documentos-simo/requisitos-del-empleo-SIMO.png" alt="Requisitos del empleo en el SIMO" />
+  <img loading="lazy" decoding="async" src="/assets/images/como-cargar-documentos-simo/requisitos-del-empleo-SIMO.png" alt="Requisitos del empleo en el SIMO" />
 
 </section>
 
@@ -76,7 +76,7 @@ permalink: /como-cargar-documentos-simo/
   </ul>
   <p>✔️ <strong>¿Por qué es importante?</strong> Sirve como criterio de desempate en listas de elegibles.</p>
 
-  <img src="/assets/images/como-cargar-documentos-simo/documentos-debes-subir-al-SIMO.png" alt="Documentos que debes subir al SIMO" />
+  <img loading="lazy" decoding="async" src="/assets/images/como-cargar-documentos-simo/documentos-debes-subir-al-SIMO.png" alt="Documentos que debes subir al SIMO" />
 
 </section>
 
@@ -84,7 +84,7 @@ permalink: /como-cargar-documentos-simo/
   <h2>Cómo cargar documentos en el SIMO paso a paso</h2>
 
 <div class="video-responsive">
-  <iframe src="https://www.youtube.com/embed/PFllVfUib8k?si=X3l6K1o3o3o3o3o3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe loading="lazy" src="https://www.youtube.com/embed/PFllVfUib8k?si=X3l6K1o3o3o3o3o3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
   
   <h3>🔹 Paso 1: Ingresar al SIMO</h3>
