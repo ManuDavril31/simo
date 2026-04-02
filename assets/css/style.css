@@ -412,13 +412,20 @@ table a {
 }
 
 @media (max-width: 768px) {
-  header {
+  header, header.scrolled {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 0 1rem !important; /* Cero padding vertical para máximo ajuste */
+    min-height: 60px; /* Tamaño más ajustado posible */
+    background: rgba(0, 64, 128, 0.95) !important;
+    backdrop-filter: blur(8px) !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2) !important;
   }
   .logo {
     flex: 1 1 auto;
+    margin: 0 !important; /* Elimina márgenes extra del h1 */
+    padding: 0;
   }
   nav {
     flex: 0 0 auto;
