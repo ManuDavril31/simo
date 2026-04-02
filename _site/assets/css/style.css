@@ -65,7 +65,7 @@ nav {
 
 /* Efectos al hacer scroll hacia abajo */
 header.scrolled {
-  padding: 0.5rem 2.5rem 0 2.5rem;
+  padding: 0.3rem 2.5rem; /* Padding más pequeño y sin "0" inferior para equilibrar */
   background: rgba(0, 64, 128, 0.95);
   backdrop-filter: blur(8px);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
@@ -75,10 +75,19 @@ header.scrolled {
   header.scrolled .logo {
     flex: 0 0 auto;
     text-align: left;
+    margin: 0; /* Evita que el h1 desalinee el logo */
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  header.scrolled .logo a {
+    display: flex;
+    align-items: center;
   }
   
   header.scrolled .logo a img {
-    max-height: 45px;
+    max-height: 40px; /* Un poco más pequeño para achicar más el menú */
   }
   
   header.scrolled nav {
@@ -88,6 +97,8 @@ header.scrolled {
     margin-top: 0;
     padding-top: 0;
     border-top: none;
+    display: flex;
+    align-items: center;
   }
 }
 
