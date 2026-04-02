@@ -286,6 +286,45 @@ table a {
   text-decoration: none;
 }
 
+/* Call to Action WhatsApp */
+.cta-whatsapp {
+  background: linear-gradient(135deg, #e6ffe6 0%, #ccffcc 100%);
+  border: 1px solid #99ff99;
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  max-width: 900px;
+  margin: 2.5rem auto;
+  box-shadow: 0 4px 15px rgba(0, 128, 0, 0.08);
+}
+.cta-whatsapp h3 {
+  color: #006600;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+.cta-whatsapp p {
+  color: #004d00;
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+.btn-whatsapp {
+  background: #25d366;
+  color: white !important;
+  font-weight: bold;
+  padding: 0.8rem 1.8rem;
+  border-radius: 50px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.1rem;
+  box-shadow: 0 4px 10px rgba(37, 211, 102, 0.3);
+  transition: transform 0.2s, background 0.2s, box-shadow 0.2s;
+}
+.btn-whatsapp:hover {
+  background: #1ebc5a;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(37, 211, 102, 0.4);
+}
 
 /* Estilo para details de convocatorias */
 .convocatorias-details {
