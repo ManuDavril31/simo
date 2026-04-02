@@ -32,13 +32,12 @@ permalink: /registro-simo-colombia/
 
 </section>
 
-<div class="cta-whatsapp">
-  <h3>¿Necesitas ayuda con tu inscripción a SIMO?</h3>
-  <p>Escríbeme por WhatsApp y te ayudo a crear tu cuenta paso a paso.</p>
-  <a href="https://wa.me/573204403165?text=Hola,%20necesito%20ayuda%20para%20crear%20mi%20cuenta%20en%20SIMO" target="_blank" class="btn-whatsapp">
-    💬 Te ayudo a crear tu cuenta en SIMO
-  </a>
-</div>
+{% include cta-whatsapp.html 
+  title="¿Necesitas ayuda con tu inscripción a SIMO?" 
+  text="Escríbeme por WhatsApp y te ayudo a crear tu cuenta paso a paso." 
+  btn_text="Te ayudo a crear tu cuenta en SIMO" 
+  wa_text="Hola, necesito ayuda para crear mi cuenta en SIMO" 
+%}
 
 <section>
   <h3>PASO 1: Ingreso de datos básicos</h3>
@@ -100,7 +99,7 @@ permalink: /registro-simo-colombia/
     <li>Información de contacto</li>
     <li>Formación académica</li>
     <li>Experiencia laboral</li>
-    <li>Documentos soporte</li>
+    <li>Documentos soporte (👈 revisa nuestra <a href="/como-cargar-documentos-simo/">guía sobre qué documentos debes subir al SIMO y cómo cargarlos correctamente</a>)</li>
   </ul>
   <p>⚠️ Este paso es obligatorio porque el sistema usa esta información para validar tu inscripción.</p>
 
@@ -108,13 +107,12 @@ permalink: /registro-simo-colombia/
   
 </section>
 
-<div class="cta-whatsapp">
-  <h3>¿Miedo a equivocarte al llenar tu información?</h3>
-  <p>No arriesgues tu inscripción. Escríbeme a WhatsApp y nos aseguramos de hacerlo perfecto.</p>
-  <a href="https://wa.me/573204403165?text=Hola,%20necesito%20ayuda%20para%20crear%20mi%20cuenta%20en%20SIMO" target="_blank" class="btn-whatsapp">
-    💬 Te ayudo a crear tu cuenta en SIMO
-  </a>
-</div>
+{% include cta-whatsapp.html 
+  title="¿Miedo a equivocarte al llenar tu información?" 
+  text="No arriesgues tu inscripción. Escríbeme a WhatsApp y nos aseguramos de hacerlo perfecto." 
+  btn_text="Te ayudo a crear tu cuenta en SIMO" 
+  wa_text="Hola, necesito ayuda para crear mi cuenta en SIMO" 
+%}
 
 <section>
   <h2>Parte 2: Cómo inscribirse a un empleo en SIMO 2026</h2>
@@ -230,13 +228,12 @@ permalink: /registro-simo-colombia/
   </ul>
 </section>
 
-<div class="cta-whatsapp">
-  <h3>¿Aún con dudas sobre el proceso?</h3>
-  <p>Si prefieres no perder tiempo, te brindo asesoría personalizada desde la creación de tu cuenta hasta postularte.</p>
-  <a href="https://wa.me/573204403165?text=Hola,%20necesito%20ayuda%20para%20crear%20mi%20cuenta%20en%20SIMO" target="_blank" class="btn-whatsapp">
-    💬 Te ayudo a crear tu cuenta en SIMO
-  </a>
-</div>
+{% include cta-whatsapp.html 
+  title="¿Aún con dudas sobre el proceso?" 
+  text="Si prefieres no perder tiempo, te brindo asesoría personalizada desde la creación de tu cuenta hasta postularte." 
+  btn_text="Te ayudo a crear tu cuenta en SIMO" 
+  wa_text="Hola, necesito ayuda para crear mi cuenta en SIMO" 
+%}
 
 <section>
   <h2>Preguntas Frecuentes (FAQ)</h2>

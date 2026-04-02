@@ -40,6 +40,13 @@ permalink: /como-cargar-documentos-simo/
 
 </section>
 
+{% include cta-whatsapp.html 
+  title="¿Necesitas ayuda cargando tus documentos?" 
+  text="Evita errores que puedan dejarte fuera. Si no tienes tiempo o quieres estar seguro, escríbeme y realizo personalmente el cargue de tus documentos en SIMO por ti." 
+  btn_text="Ayuda para cargar mis documentos" 
+  wa_text="Hola, necesito ayuda para cargar mis documentos correctamente en SIMO" 
+%}
+
 <section>
   <h2>Qué documentos debes subir al SIMO (explicación clara)</h2>
   
@@ -88,7 +95,7 @@ permalink: /como-cargar-documentos-simo/
 </div>
   
   <h3>🔹 Paso 1: Ingresar al SIMO</h3>
-  <p>Accede a tu cuenta en el sistema SIMO</p>
+  <p>Accede a tu cuenta en el sistema SIMO. Si aún no tienes un usuario, revisa nuestra <a href="/registro-simo-colombia/">guía completa paso a paso para crear tu cuenta en el SIMO</a> antes de continuar.</p>
 
   <h3>🔹 Paso 2: Ir a la sección correspondiente</h3>
   <p>Selecciona según el documento:</p>
@@ -107,6 +114,13 @@ permalink: /como-cargar-documentos-simo/
   <p>✔️ Verifica que el archivo quede correctamente cargado</p>
 
 </section>
+
+{% include cta-whatsapp.html 
+  title="¿Problemas para subir o comprimir tus PDFs?" 
+  text="Si la plataforma arroja error por el peso o no logras cargar tus actas, escríbeme y garantizo la carga correcta." 
+  btn_text="Ayuda para cargar mis documentos" 
+  wa_text="Hola, tengo problemas para cargar o comprimir mis archivos en SIMO" 
+%}
 
 <section>
   <h2>🟡 Diferencia clave: experiencia relacionada vs profesional</h2>
@@ -147,6 +161,13 @@ permalink: /como-cargar-documentos-simo/
     <li>✔️ Asegúrate de cumplir TODOS los requisitos</li>
   </ul>
 </section>
+
+{% include cta-whatsapp.html 
+  title="¿No quieres dejar cabos sueltos y perder tu oportunidad?" 
+  text="El 60% de los aspirantes fallan la validación por un documento mal cargado. Yo me encargo de todo tu proceso por ti." 
+  btn_text="Te ayudo con tus documentos SIMO" 
+  wa_text="Hola, quiero estar seguro y que me ayuden a dejar perfectos mis documentos en el SIMO" 
+%}
 
 <section>
   <h2>Conclusión</h2>
