@@ -1,0 +1,158 @@
+---
+layout: default
+title: Cómo cargar documentos al SIMO correctamente (Guía paso a paso 2026)
+description: Aprende qué documentos subir al sistema SIMO, cómo cargarlos correctamente paso a paso, y los errores comunes que debes evitar para la CNSC.
+permalink: /como-cargar-documentos-simo/
+---
+
+<section class="hero">
+  <h1>Cómo cargar documentos al SIMO correctamente (Guía paso a paso 2026)</h1>
+  <p>Cargar correctamente los documentos en el sistema SIMO es un paso clave para participar en convocatorias de la Comisión Nacional del Servicio Civil.</p>
+  <p>En esta guía aprenderás qué documentos subir, cómo hacerlo correctamente y errores que debes evitar para no quedar fuera del proceso.</p>
+</section>
+
+<section>
+  <h2>Cómo saber qué documentos debes cargar en el SIMO</h2>
+  <p>Antes de subir cualquier archivo, debes revisar los requisitos del empleo al que deseas aplicar.</p>
+  
+  <h3>🔹 Paso 1: Consultar la convocatoria</h3>
+  <ul>
+    <li>Ingresa a la página de la Comisión Nacional del Servicio Civil</li>
+    <li>Dirígete a: Procesos de selección → Procesos en desarrollo</li>
+    <li>Selecciona la convocatoria de tu interés</li>
+  </ul>
+  <p>💡 Aquí podrás ver:</p>
+  <ul>
+    <li>Fechas de inscripción</li>
+    <li>Modalidad (ascenso o abierto)</li>
+    <li>Avisos informativos</li>
+  </ul>
+
+  <h3>🔹 Paso 2: Revisar requisitos del empleo</h3>
+  <p>Cada empleo tiene dos requisitos clave:</p>
+  <ul>
+    <li>✔️ Estudio (educación)</li>
+    <li>✔️ Experiencia laboral</li>
+  </ul>
+  <p>👉 Estos requisitos determinan exactamente qué documentos debes cargar en el SIMO</p>
+
+  <img src="/assets/images/como-cargar-documentos-simo/requisitos-del-empleo-SIMO.png" alt="Requisitos del empleo en el SIMO" />
+
+</section>
+
+<section>
+  <h2>Qué documentos debes subir al SIMO (explicación clara)</h2>
+  
+  <h3>🔹 Documentos de educación (formación)</h3>
+  <p>Debes cargar:</p>
+  <ul>
+    <li>🎓 Diploma (ej: bachiller, técnico, profesional)</li>
+    <li>📄 Acta de grado (opcional pero recomendado)</li>
+  </ul>
+  <p>✔️ <strong>Ejemplo:</strong> Si el empleo pide bachiller, debes subir tu diploma de bachiller</p>
+
+  <h3>🔹 Documentos de experiencia laboral</h3>
+  <p>Debes cargar:</p>
+  <ul>
+    <li>📄 Certificados laborales</li>
+  </ul>
+  <p>⚠️ <strong>IMPORTANTE:</strong> El certificado debe incluir:</p>
+  <ul>
+    <li>Cargo desempeñado</li>
+    <li>Fechas (inicio y fin)</li>
+    <li>Funciones realizadas</li>
+  </ul>
+  <p>✔️ Esto permite validar que tu experiencia es relacionada con el cargo</p>
+
+  <h3>🔹 Documento de identidad</h3>
+  <p>Debes subir:</p>
+  <ul>
+    <li>🪪 Cédula de ciudadanía (por ambos lados)</li>
+  </ul>
+
+  <h3>🔹 Documentos adicionales (recomendado)</h3>
+  <ul>
+    <li>🗳️ Certificado electoral</li>
+  </ul>
+  <p>✔️ <strong>¿Por qué es importante?</strong> Sirve como criterio de desempate en listas de elegibles.</p>
+
+  <img src="/assets/images/como-cargar-documentos-simo/documentos-debes-subir-al-SIMO.png" alt="Documentos que debes subir al SIMO" />
+
+</section>
+
+<section>
+  <h2>Cómo cargar documentos en el SIMO paso a paso</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PFllVfUib8k?si=X3l6K1o3o3o3o3o3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  
+  <h3>🔹 Paso 1: Ingresar al SIMO</h3>
+  <p>Accede a tu cuenta en el sistema SIMO</p>
+
+  <h3>🔹 Paso 2: Ir a la sección correspondiente</h3>
+  <p>Selecciona según el documento:</p>
+  <ul>
+    <li>Educación → formación académica</li>
+    <li>Experiencia → laboral</li>
+    <li>Información personal</li>
+  </ul>
+
+  <h3>🔹 Paso 3: Subir el archivo</h3>
+  <ul>
+    <li>Selecciona el tipo de documento</li>
+    <li>Adjunta el archivo (PDF preferiblemente)</li>
+    <li>Guarda los cambios</li>
+  </ul>
+  <p>✔️ Verifica que el archivo quede correctamente cargado</p>
+
+</section>
+
+<section>
+  <h2>🟡 Diferencia clave: experiencia relacionada vs profesional</h2>
+  
+  <h3>🔹 Experiencia relacionada</h3>
+  <ul>
+    <li>Debe tener funciones similares al cargo</li>
+    <li>Es obligatoria la descripción de funciones</li>
+  </ul>
+
+  <h3>🔹 Experiencia profesional</h3>
+  <ul>
+    <li>Es más general</li>
+    <li>No siempre exige funciones detalladas</li>
+  </ul>
+
+  <p>⚠️ <strong>Error común:</strong> Subir certificados sin funciones cuando el empleo exige experiencia relacionada.</p>
+</section>
+
+<section>
+  <h2>Errores comunes al cargar documentos en el SIMO</h2>
+  <ul>
+    <li>❌ Subir documentos ilegibles</li>
+    <li>❌ No incluir funciones en certificados laborales</li>
+    <li>❌ Cargar documentos incorrectos</li>
+    <li>❌ No revisar requisitos del empleo</li>
+    <li>❌ Olvidar documentos importantes como el certificado electoral</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Recomendaciones clave para cargar documentos correctamente</h2>
+  <ul>
+    <li>✔️ Usa archivos en PDF</li>
+    <li>✔️ Nombra bien los archivos (ej: “Diploma_Bachiller.pdf”)</li>
+    <li>✔️ Verifica cada documento antes de inscribirte</li>
+    <li>✔️ Carga todo antes de la fecha límite</li>
+    <li>✔️ Asegúrate de cumplir TODOS los requisitos</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Conclusión</h2>
+  <p>Saber cómo cargar documentos al SIMO correctamente puede marcar la diferencia entre avanzar o quedar fuera del proceso.</p>
+  <p>La clave está en:</p>
+  <ul>
+    <li>✔️ Revisar bien los requisitos</li>
+    <li>✔️ Subir documentos completos y claros</li>
+    <li>✔️ Entender el tipo de experiencia solicitada</li>
+  </ul>
+</section>
