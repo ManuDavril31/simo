@@ -27,6 +27,7 @@ header {
   padding: 1.2rem 2.5rem;
   flex-wrap: wrap;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+  position: relative;
 }
 
 .logo {
@@ -330,6 +331,7 @@ table a {
     align-items: center;
     justify-content: flex-end;
     width: auto;
+    position: static;
   }
   .menu-toggle {
     display: block;
@@ -345,15 +347,15 @@ table a {
     flex-direction: column;
     background: #004080;
     position: absolute;
-    right: 0;
+    left: 0;
     top: 100%;
-    width: 90vw;
-    max-width: 320px;
-    min-width: 180px;
+    width: 100%;
+    max-width: 100%;
     display: none;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
     border-radius: 0 0 12px 12px;
-    padding: 1rem 0.5rem;
+    padding: 1rem 0;
+    margin: 0;
     z-index: 1001;
     animation: slideDown 0.3s;
   }
@@ -361,7 +363,7 @@ table a {
   @keyframes slideDown {
     from {
       opacity: 0;
-      transform: translateY(-20px);
+      transform: translateY(-10px);
     }
     to {
       opacity: 1;
@@ -372,45 +374,63 @@ table a {
   .nav-links.active {
     display: flex;
   }
+  
+  .nav-links li {
+    padding: 0;
+    margin: 0;
+    list-style: none; /* Just in case */
+  }
+  
+  .nav-links li::before {
+    display: none; /* Prevenir la viñeta azul personalizada del menu mobile */
+  }
 
   .nav-links a {
+    display: block;
     color: #fff;
-    padding: 0.8rem 1rem;
-    border-radius: 6px;
-    margin: 0.2rem 0;
+    padding: 1rem 1rem;
+    border-radius: 0;
+    margin: 0;
     font-size: 1.1rem;
-    text-align: left;
+    text-align: center;
     transition: background 0.2s, color 0.2s;
   }
   .nav-links a:hover,
   .nav-links a:focus {
-    background: #fff;
-    color: #004080;
+    background: #0059b3;
+    color: #fff;
   }
 
   section {
-    margin: 1rem 0.2rem;
-    padding: 1rem 0.2rem;
+    margin: 1.5rem 1rem;
+    padding: 2rem 1.5rem;
   }
 
   .hero {
-    padding: 1.2rem 0.5rem 1.5rem 0.5rem;
+    margin: 1.5rem 1rem;
+    padding: 2rem 1.5rem;
+  }
+  
+  .hero h1 {
+    font-size: 2rem;
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+  }
+  
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
   }
 }
 
 @media (max-width: 480px) {
-  .nav-links {
-    width: 100vw;
-    min-width: unset;
-    max-width: unset;
-    left: 0;
-    right: 0;
-    border-radius: 0 0 12px 12px;
-    padding: 1rem 0.2rem;
-  }
-  .nav-links.active {
-    display: flex;
-  }
   .menu-toggle {
     right: 0;
     margin-right: 0.5rem;
