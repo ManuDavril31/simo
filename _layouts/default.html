@@ -12,6 +12,37 @@
     {% if page.noindex %}
     <meta name="robots" content="noindex, follow" />
     {% endif %}
+    <!-- Schema Global SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "{{ site.url | default: 'https://guiasimo.com' }}/#website",
+          "url": "{{ site.url | default: 'https://guiasimo.com' }}/",
+          "name": "{{ site.title | default: 'Guias SIMO Colombia' }}",
+          "description": "Sitio informativo no oficial sobre el proceso de registro y uso del SIMO de la Comisión Nacional del Servicio Civil en Colombia.",
+          "publisher": {
+            "@id": "{{ site.url | default: 'https://guiasimo.com' }}/#organization"
+          },
+          "inLanguage": "es-CO"
+        },
+        {
+          "@type": "Organization",
+          "@id": "{{ site.url | default: 'https://guiasimo.com' }}/#organization",
+          "name": "{{ site.title | default: 'Guias SIMO Colombia' }}",
+          "url": "{{ site.url | default: 'https://guiasimo.com' }}/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "{{ site.url | default: 'https://guiasimo.com' }}/assets/images/logo-guiasimo.png",
+            "width": 600,
+            "height": 150
+          }
+        }
+      ]
+    }
+    </script>
   </head>
   <body>
     <header>
