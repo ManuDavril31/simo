@@ -83,7 +83,9 @@ permalink: /como-cargar-documentos-simo/
 <section>
   <h2>Cómo cargar documentos en el SIMO paso a paso</h2>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PFllVfUib8k?si=X3l6K1o3o3o3o3o3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video-responsive">
+  <iframe src="https://www.youtube.com/embed/PFllVfUib8k?si=X3l6K1o3o3o3o3o3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
   
   <h3>🔹 Paso 1: Ingresar al SIMO</h3>
   <p>Accede a tu cuenta en el sistema SIMO</p>
