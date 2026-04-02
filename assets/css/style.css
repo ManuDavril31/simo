@@ -29,7 +29,10 @@ header {
   padding: 1.2rem 2.5rem 0 2.5rem;
   flex-wrap: wrap;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
-  position: relative;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
 }
 
 .logo {
@@ -46,6 +49,7 @@ header {
   max-height: 80px; /* Logo más grande según lo solicitado */
   width: auto;
   vertical-align: middle;
+  transition: max-height 0.3s ease;
 }
 
 nav {
@@ -56,6 +60,35 @@ nav {
   margin-top: 1rem;
   padding-top: 0.8rem;
   border-top: 1px solid rgba(255, 255, 255, 0.15);
+  transition: all 0.3s ease;
+}
+
+/* Efectos al hacer scroll hacia abajo */
+header.scrolled {
+  padding: 0.5rem 2.5rem 0 2.5rem;
+  background: rgba(0, 64, 128, 0.95);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 769px) {
+  header.scrolled .logo {
+    flex: 0 0 auto;
+    text-align: left;
+  }
+  
+  header.scrolled .logo a img {
+    max-height: 45px;
+  }
+  
+  header.scrolled nav {
+    width: auto;
+    flex: 1 1 auto;
+    justify-content: flex-end;
+    margin-top: 0;
+    padding-top: 0;
+    border-top: none;
+  }
 }
 
 .menu-toggle {
