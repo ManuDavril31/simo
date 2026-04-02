@@ -36,12 +36,14 @@ header {
 }
 
 .logo a {
+  display: inline-block;
   text-decoration: none;
-  color: #fff;
-  font-size: 2rem;
-  font-weight: bold;
-  letter-spacing: 1px;
-  text-shadow: 1px 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.logo a img {
+  max-height: 80px; /* Logo más grande según lo solicitado */
+  width: auto;
+  vertical-align: middle;
 }
 
 nav {
@@ -239,6 +241,15 @@ ul.custom-icons li:hover::before {
   color: #004080;
 }
 
+/* Ajuste básico para imágenes de contenido */
+section img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto;
+  border-radius: 4px;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -274,6 +285,7 @@ td {
 table a {
   text-decoration: none;
 }
+
 
 /* Estilo para details de convocatorias */
 .convocatorias-details {

@@ -27,6 +27,9 @@ permalink: /registro-simo-colombia/
     <li><strong>Ingresar al siguiente enlace</strong>, el cual te llevara directamente a la página de registro de la página oficial de SIMO.<br><a href="https://simo.cnsc.gov.co/#registro" target="_blank">https://simo.cnsc.gov.co/#registro</a></li>
   </ol>
   <p>Se encontrará con un formulario el cual deberá llenar para completar el proceso de registro en la plataforma SIMO. A través de este procedimiento, los usuarios podrán crear su cuenta personal ingresando sus datos básicos, validando su correo electrónico y completando la información requerida. Este registro es fundamental para acceder a los servicios ofrecidos por el sistema, por lo que es importante diligenciar cada campo con información verídica y verificar cuidadosamente los datos antes de enviar la solicitud.</p>
+
+  <img src="/assets/images/registro-simo-colombia/página-de-registro-de-la-página-oficial-de-SIMO.png" alt="página de registro de la página oficial de SIMO" />
+
 </section>
 
 <section>
@@ -74,6 +77,9 @@ permalink: /registro-simo-colombia/
 <section>
   <h2>Iniciar sesión</h2>
   <p>Una vez registrado, ingresa en este enlace -> <a href="https://simo.cnsc.gov.co/" target="_blank">https://simo.cnsc.gov.co/</a></p>
+
+  <img src="/assets/images/registro-simo-colombia/iniciar-sesion-SIMO.jpg" alt="iniciar sesión SIMO" />
+  
   <ul>
     <li>Ingresa con tu usuario y contraseña</li>
     <li>Accede al panel de control</li>
@@ -89,12 +95,16 @@ permalink: /registro-simo-colombia/
     <li>Documentos soporte</li>
   </ul>
   <p>⚠️ Este paso es obligatorio porque el sistema usa esta información para validar tu inscripción.</p>
+
+  <img src="/assets/images/registro-simo-colombia/Completar-tu-perfil-SIMO.jpg" alt="Completar tu perfil SIMO" />
+  
 </section>
 
 <section>
   <h2>Parte 2: Cómo inscribirse a un empleo en SIMO 2026</h2>
   
   <h3>1. Acceder al sistema</h3>
+  <img src="/assets/images/registro-simo-colombia/iniciar-sesion-SIMO.jpg" alt="iniciar sesión SIMO" />
   <ul>
     <li>Ingresa a SIMO</li>
     <li>Digita usuario y contraseña</li>
@@ -104,10 +114,15 @@ permalink: /registro-simo-colombia/
   <h3>2. Ir a OPEC (Oferta de empleos)</h3>
   <ul>
     <li>Busca en el menú Oferta Pública de Empleos de Carrera (OPEC)</li>
-    <li>Haz clic para ver las vacantes</li>
+    <li>Haz clic para ver las vacantes</li>    
   </ul>
 
+  <img src="/assets/images/registro-simo-colombia/Oferta-de-empleos-SIMO.jpg" alt="Oferta de empleos SIMO" />
+
   <h3>3. Buscar convocatorias</h3>
+
+  <img src="/assets/images/registro-simo-colombia/Buscar-convocatorias-SIMO.png" alt="Buscar convocatorias SIMO" />
+
   <ul>
     <li>Selecciona una convocatoria</li>
     <li>Usa palabras clave (ej: “administrativo”)</li>
@@ -127,7 +142,9 @@ permalink: /registro-simo-colombia/
     <li>Verifica vacantes</li>
     <li>💡 Puedes guardarlos como favoritos ❤️</li>
   </ul>
-
+  
+  <img src="/assets/images/registro-simo-colombia/Revisar-empleos-disponibles-SIMO.jpg" alt="Revisar empleos disponibles SIMO" />
+  
   <h3>5. Seleccionar empleo</h3>
   <p>Haz clic en Seleccionar empleo (ícono de nube)</p>
 
