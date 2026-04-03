@@ -375,6 +375,8 @@ permalink: /como-cargar-documentos-simo/
 </section>
 
 <!-- JSON-LD SEO SIMO -->
+{% assign current_year = site.time | date: "%Y" %}
+{% assign dynamic_headline = page.title | replace: '2024', current_year | replace: '2025', current_year | replace: '2026', current_year | replace: '2027', current_year | replace: '[Año]', current_year | replace: '[AÑO]', current_year | replace: '[año]', current_year %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -385,7 +387,7 @@ permalink: /como-cargar-documentos-simo/
       "isPartOf": {
         "@id": "https://guiasimo.com/#website"
       },
-      "headline": "Cómo cargar documentos en SIMO correctamente ✅ Guía 2026",
+      "headline": "{{ dynamic_headline }}",
       "description": "Aprende paso a paso cómo subir documentos en SIMO sin errores ✔️ Guía actualizada con consejos clave 👉 Evita rechazos",
       "image": "https://guiasimo.com/assets/images/como-cargar-documentos-simo/documentos-debes-subir-al-SIMO.png",
       "author": {

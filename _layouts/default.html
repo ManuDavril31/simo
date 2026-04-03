@@ -3,8 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ page.title }} | {{ site.title }}</title>
-    <meta name="description" content="{{ page.description}}" />
+    {% assign current_year = site.time | date: "%Y" %}
+    {% assign seo_title = page.title | replace: '2024', current_year | replace: '2025', current_year | replace: '2026', current_year | replace: '2027', current_year | replace: '[Año]', current_year | replace: '[AÑO]', current_year | replace: '[año]', current_year %}
+    {% assign seo_desc = page.description | replace: '2024', current_year | replace: '2025', current_year | replace: '2026', current_year | replace: '2027', current_year | replace: '[Año]', current_year | replace: '[AÑO]', current_year | replace: '[año]', current_year %}
+    <title>{{ seo_title }} | {{ site.title }}</title>
+    <meta name="description" content="{{ seo_desc }}" />
     <link rel="icon" type="image/png" href="/assets/images/isotipo-guiasimo.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

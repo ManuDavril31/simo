@@ -262,6 +262,8 @@ permalink: /registro-simo-colombia/
 </section>
 
 <!-- JSON-LD SEO SIMO -->
+{% assign current_year = site.time | date: "%Y" %}
+{% assign dynamic_headline = page.title | replace: '2024', current_year | replace: '2025', current_year | replace: '2026', current_year | replace: '2027', current_year | replace: '[Año]', current_year | replace: '[AÑO]', current_year | replace: '[año]', current_year %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -272,7 +274,7 @@ permalink: /registro-simo-colombia/
       "isPartOf": {
         "@id": "https://guiasimo.com/#website"
       },
-      "headline": "Cómo registrarse e inscribirse en SIMO ✅ Guía 2026",
+      "headline": "{{ dynamic_headline }}",
       "description": "Aprende paso a paso cómo crear tu cuenta y postularte a convocatorias en SIMO sin errores ✔️ Guía oficial actualizada 👉 Asegura tu empleo público",
       "image": "https://guiasimo.com/assets/images/registro-simo-colombia/iniciar-sesion-SIMO.jpg",
       "author": {
