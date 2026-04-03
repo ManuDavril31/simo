@@ -123,6 +123,186 @@ permalink: /como-cargar-documentos-simo/
 %}
 
 <section>
+  <h2>Registrar tu formación académica en el SIMO (CNSC)</h2>
+  <p>Bienvenidos a esta guía estructurada y ampliada sobre el proceso de registro de formación académica en el sistema SIMO de la Comisión Nacional del Servicio Civil (CNSC) en Colombia. Aquí encontrarás todo lo necesario para completar correctamente este paso clave en tu postulación a concursos de méritos del Estado.</p>
+
+  <h3>El camino hacia el empleo público en Colombia</h3>
+  <p>Los concursos de méritos realizados por la Comisión Nacional del Servicio Civil son el principal mecanismo para acceder a empleos públicos en Colombia. Este proceso se caracteriza por ser:</p>
+  <ul>
+    <li>Transparente</li>
+    <li>Meritocrático</li>
+    <li>Igualitario</li>
+  </ul>
+  <p>El registro en el sistema SIMO (Sistema de Información para el Mérito y la Oportunidad) es el primer paso fundamental. Una vez completado tu perfil básico, debes avanzar al diligenciamiento de tu formación académica, aspecto determinante en la evaluación.</p>
+
+  <h3>Importancia de la formación académica en el SIMO</h3>
+  <p>El módulo de formación académica permite validar que cumples con los requisitos mínimos exigidos en cada convocatoria. Es fundamental tener en cuenta que:</p>
+  <ul>
+    <li>Toda la información será verificada posteriormente.</li>
+    <li>Los documentos deben cumplir con lo establecido en:
+      <ul>
+        <li>El acuerdo de la convocatoria</li>
+        <li>El anexo técnico correspondiente</li>
+      </ul>
+    </li>
+    <li>Cualquier inconsistencia puede afectar tu postulación.</li>
+  </ul>
+
+  <h3>Tipos de educación que debes registrar</h3>
+  <p>El sistema SIMO clasifica la formación en tres grandes categorías:</p>
+  
+  <h4>1. Educación formal</h4>
+  <p>Incluye los estudios que conducen a títulos oficiales:</p>
+  <ul>
+    <li>Educación básica primaria (1° a 5°)</li>
+    <li>Educación secundaria (6° a 9°)</li>
+    <li>Bachillerato (10° y 11°)</li>
+    <li>Técnica profesional</li>
+    <li>Tecnología</li>
+    <li>Profesional</li>
+    <li>Especialización</li>
+    <li>Maestría</li>
+    <li>Doctorado</li>
+    <li>Posdoctorado</li>
+  </ul>
+  <p><strong>Importante:</strong> Debes registrar todos los niveles alcanzados, incluso desde primaria.</p>
+
+  <h4>2. Educación informal</h4>
+  <p>Corresponde a:</p>
+  <ul>
+    <li>Cursos</li>
+    <li>Diplomados</li>
+    <li>Seminarios</li>
+  </ul>
+  <p><strong>Reglas clave:</strong></p>
+  <ul>
+    <li>Solo se tendrán en cuenta certificaciones con máximo 10 años de antigüedad.</li>
+    <li>Deben incluir:
+      <ul>
+        <li>Fecha de inicio y finalización</li>
+        <li>Intensidad horaria</li>
+      </ul>
+    </li>
+    <li>Es obligatorio adjuntar el certificado.</li>
+  </ul>
+
+  <h4>3. Educación para el trabajo y desarrollo humano</h4>
+  <p>Incluye programas orientados a habilidades laborales específicas:</p>
+  <ul>
+    <li>Formación académica laboral</li>
+    <li>Formación penitenciaria (relacionada con el IMPEC)</li>
+    <li>Formación técnica laboral (ejemplo: panadería, sistemas, etc.)</li>
+  </ul>
+
+  <h3>Paso a paso: Cómo registrar tu formación académica</h3>
+  
+  <h4>1. Accede al módulo</h4>
+  <ul>
+    <li>Ingresa a SIMO</li>
+    <li>Dirígete a “Formación académica”</li>
+    <li>Haz clic en “Crear formación”</li>
+  </ul>
+
+  <h4>2. Selecciona el tipo de educación</h4>
+  <p>Elige entre:</p>
+  <ul>
+    <li>Educación formal</li>
+    <li>Educación informal</li>
+    <li>Educación para el trabajo</li>
+  </ul>
+
+  <h4>3. Diligencia la información solicitada</h4>
+  <p>Dependiendo del tipo de educación, deberás completar:</p>
+  <ul>
+    <li>Nombre de la institución</li>
+    <li>Nombre del programa (tal cual aparece en el certificado)</li>
+    <li>Fecha de inicio y finalización</li>
+    <li>Intensidad horaria (en cursos)</li>
+    <li>Si estás graduado o no</li>
+    <li>Si fue cursado en el extranjero</li>
+  </ul>
+
+  <h4>4. Adjunta los documentos</h4>
+  <ul>
+    <li>Sube el diploma o certificado en formato PDF</li>
+    <li>Asegúrate de que:
+      <ul>
+        <li>Sea legible</li>
+        <li>Tenga buena resolución</li>
+        <li>No esté pixelado</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h4>5. Guarda y verifica</h4>
+  <ul>
+    <li>Haz clic en Guardar</li>
+    <li>Revisa que la información cargada sea correcta</li>
+    <li>Puedes:
+      <ul>
+        <li>Editar</li>
+        <li>Eliminar</li>
+        <li>Visualizar el documento adjunto</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h3>Casos especiales que debes considerar</h3>
+  
+  <h4>Certificaciones sin título (estudios en curso)</h4>
+  <p>Si aún no te has graduado:</p>
+  <ul>
+    <li>Solicita una certificación de terminación y aprobación de materias</li>
+    <li>Debe incluir:
+      <ul>
+        <li>Fecha exacta de finalización</li>
+        <li>Cumplimiento académico</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h4>Núcleo Básico del Conocimiento (NBC)</h4>
+  <p>El NBC define el área general de tu formación (por ejemplo: Derecho, Ingeniería, Administración).</p>
+  <p><strong>¿Por qué es importante?</strong></p>
+  <ul>
+    <li>Permite validar si tu perfil aplica al cargo</li>
+    <li>Se relaciona con las funciones del empleo</li>
+  </ul>
+
+  <h4>Educación no válida</h4>
+  <p>No serán tenidos en cuenta:</p>
+  <ul>
+    <li>Cursos con más de 10 años de antigüedad</li>
+    <li>Certificaciones sin intensidad horaria</li>
+    <li>Documentos ilegibles o incompletos</li>
+  </ul>
+
+  <h3>Evaluación de antecedentes: clave para sumar puntos</h3>
+  <p>En etapas posteriores del concurso, se evalúan los estudios adicionales al requisito mínimo.</p>
+  <p>Para que sean válidos:</p>
+  <ul>
+    <li>Deben estar relacionados con el cargo</li>
+    <li>Deben aportar valor a las funciones del empleo</li>
+  </ul>
+  <p><strong>Ejemplo:</strong> Si aplicas a un cargo administrativo, tus estudios deben estar relacionados con administración, gestión, archivo, etc.</p>
+
+  <h3>Recomendaciones finales para un registro exitoso</h3>
+  <ul>
+    <li>✔️ Escanea todos los documentos con alta calidad</li>
+    <li>✔️ Usa exactamente el nombre del programa como aparece en el diploma</li>
+    <li>✔️ Verifica fechas cuidadosamente</li>
+    <li>✔️ Incluye toda tu formación (desde primaria)</li>
+    <li>✔️ No dejes registros incompletos</li>
+    <li>✔️ Revisa los requisitos específicos de cada convocatoria</li>
+  </ul>
+
+  <p>El registro de la formación académica en el SIMO no es solo un requisito, sino una oportunidad para demostrar tu perfil profesional de manera clara y organizada.</p>
+  <p>Un buen diligenciamiento puede marcar la diferencia en tu proceso de selección y acercarte a ingresar a la carrera administrativa en Colombia.</p>
+  <p>Recuerda: el acceso al empleo público se basa en mérito, igualdad y oportunidad.</p>
+
+</section>
+
+<section>
   <h2>🟡 Diferencia clave: experiencia relacionada vs profesional</h2>
   
   <h3>🔹 Experiencia relacionada</h3>

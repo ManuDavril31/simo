@@ -35,6 +35,16 @@ permalink: /
 
 <section id="que-es-simo">
   <h2>¿Qué es SIMO y para Qué Sirve?</h2>
+
+  <p>¿Sabía que SIMO es el sistema a través del cual puede participar fácilmente en las convocatorias de empleo público en Colombia?</p>
+
+  <p>Ingrese a <a href="https://simo.cnsc.gov.co/" target="_blank">https://simo.cnsc.gov.co/</a> y administre su perfil. Cargue una sola vez sus documentos de soporte para participar en las convocatorias. Identifique los empleos de su interés y márquelos como favoritos.</p>
+
+  <p>Realice el pago de los derechos de participación en línea o a través del banco asignado e inscríbase en la oferta de su interés.</p>
+
+  <p>Regístrese, participe y prepárese para trabajar con el Estado.</p>
+  <p>Comisión Nacional del Servicio Civil: mérito y oportunidad para todos.</p>
+
   <p><strong>SIMO</strong> (Sistema de Información del Mérito y Oportunidad) es una plataforma en línea oficial que permite a todos los ciudadanos interesados postularse a las diferentes vacantes ofertadas por el Estado colombiano.</p>
   <ul>
     <li>Publicación de convocatorias y cargos disponibles</li>
