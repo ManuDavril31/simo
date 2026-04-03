@@ -23,5 +23,24 @@ document.addEventListener('DOMContentLoaded', function () {
     } else {
       header.classList.remove('scrolled');
     }
+
+    const backToTopBtn = document.getElementById('backToTop');
+    if (backToTopBtn) {
+      if (window.scrollY > 300) {
+        backToTopBtn.classList.add('show');
+      } else {
+        backToTopBtn.classList.remove('show');
+      }
+    }
   });
+
+  const backToTopBtn = document.getElementById('backToTop');
+  if (backToTopBtn) {
+    backToTopBtn.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+  }
 });
