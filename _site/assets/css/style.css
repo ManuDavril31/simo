@@ -884,3 +884,96 @@ table a {
   color: #888;
   margin-right: 6px;
 }
+
+/* Sección de Formatos en la Home */
+.formats-section {
+  padding: 4rem 2rem;
+  background: linear-gradient(180deg, #ffffff 0%, #f0f7ff 100%);
+  text-align: center;
+}
+
+.formats-section h2 {
+  margin-bottom: 2.5rem;
+  font-size: 2rem;
+  color: #003366;
+}
+
+.formats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 350px));
+  gap: 2rem;
+  max-width: 850px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.format-card {
+  background: white;
+  border-radius: 16px;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 89, 179, 0.08);
+  border: 1px solid #e1e9f5;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.format-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0, 89, 179, 0.12);
+  border-color: #007bff;
+}
+
+.format-card .icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.format-card h3 {
+  color: #0056b3;
+  font-size: 1.25rem;
+  margin-bottom: 0.8rem;
+  border-bottom: none;
+}
+
+.format-card p {
+  color: #556677;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.btn-card {
+  display: inline-block;
+  padding: 0.7rem 1.8rem;
+  background: #007bff;
+  color: white !important;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 50px;
+  text-align: center;
+  transition: background 0.3s;
+  align-self: center;
+}
+
+.btn-card:hover {
+  background: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .formats-section {
+    padding: 3rem 1.5rem;
+  }
+  
+  .formats-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .format-card {
+    padding: 2rem 1.5rem;
+  }
+}

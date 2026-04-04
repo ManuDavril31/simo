@@ -18,6 +18,31 @@ permalink: /
   <p>Ya sea que seas un bachiller, técnico, tecnólogo o profesional, aquí encontrarás toda la orientación que necesitas para postularte a cargos en entidades del Estado.</p>
 </section>
 
+<section class="formats-section">
+  <h2>Formatos y Plantillas SIMO Colombia 📄</h2>
+  <div class="formats-grid">
+    <!-- Card 1: Experiencia Independiente -->
+    <div class="format-card">
+      <div>
+        <span class="icon">💼</span>
+        <h3>Certificado de Experiencia Independiente</h3>
+        <p>¿Has trabajado por tu cuenta o tienes un emprendimiento? Aprende cómo certificar este tiempo para ganar puntos en la CNSC con nuestra plantilla oficial.</p>
+      </div>
+      <a href="/formatos/experiencia-laboral-independiente/" class="btn-card">Ver más</a>
+    </div>
+
+    <!-- Card 2: Hoja de Vida Función Pública -->
+    <div class="format-card">
+      <div>
+        <span class="icon">📄</span>
+        <h3>Hoja de Vida Función Pública</h3>
+        <p>El formato obligatorio para registrarte en empleos del Estado. Descarga la versión oficial en PDF y guía paso a paso para llenarla correctamente.</p>
+      </div>
+      <a href="/formatos/hoja-vida-funcion-publica/" class="btn-card">Ver más</a>
+    </div>
+  </div>
+</section>
+
 <section id="convocatorias">
   <details open class="convocatorias-details">
     <summary><h2 style="display:inline">Convocatorias SIMO 2026 | Procesos de selección en desarrollo
@@ -30,6 +55,7 @@ permalink: /
       <li><strong>Pruebas Fase II:</strong> Se publicarán el 25 de julio.</li>
       <li><strong>Inscripciones:</strong> Inician el 15 de agosto.</li>
     </ul>
+    <p style="margin-top: 1rem;"><a href="https://www.cnsc.gov.co/convocatorias" target="_blank" rel="noopener">ver mas procesos de selección</a></p>
   </details>
 </section>
 
