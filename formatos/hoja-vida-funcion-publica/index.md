@@ -8,10 +8,13 @@ permalink: /formatos/hoja-vida-funcion-publica/
 <section class="hero">
   <h1>Cómo llenar la Hoja de Vida para convocatorias SIMO (CNSC)</h1>
   <p>En este tutorial aprenderás cómo llenar correctamente el Formato Único de Hoja de Vida de Función Pública en PDF para usarlo en las convocatorias de la Comisión Nacional del Servicio Civil (SIMO).</p>
+  
 </section>
 
 <section>
   <p>Este documento es <strong>obligatorio</strong> para aplicar a empleos públicos en Colombia, por lo que debe estar diligenciado de forma clara, completa y sin errores.</p>
+
+  <img src="/assets/images/formatoshoja-vida-funcion-publica/formato-unico-hoja-vida-funcion-publica-simo.png" alt="Formato Único de Hoja de Vida Función Pública SIMO">
   
   <h2>🌐 1. Descargar el formato correcto</h2>
   <p>Antes de empezar:</p>
@@ -40,11 +43,7 @@ permalink: /formatos/hoja-vida-funcion-publica/
     <li>Validar tu formación académica.</li>
     <li>Evaluar tu experiencia laboral.</li>
     <li>Soportar el cumplimiento de requisitos mínimos.</li>
-  </ul>
-  
-  <div class="cta-whatsapp">
-    <p>⚠️ <strong>Atención:</strong> Un error o inconsistencia puede hacer que tu postulación sea rechazada.</p>
-  </div>
+  </ul> 
 </section>
 
 <section>

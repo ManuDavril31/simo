@@ -743,6 +743,17 @@ table a {
     overflow-x: auto;
     white-space: nowrap;
   }
+
+  /* Ajuste de botones de descarga para móvil */
+  .btn-download {
+    font-size: 1rem;
+    padding: 0.8rem 1.2rem;
+    width: 100%;
+    max-width: 320px;
+  }
+  .btn-download .icon {
+    font-size: 1.1rem;
+  }
 }
 
 @media (max-width: 480px) {
