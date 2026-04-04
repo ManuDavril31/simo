@@ -14,6 +14,52 @@ permalink: /otros-documentos/
   <p>Con nuestra guía aprenderás rápidamente a identificar esos <strong>"Otros Documentos"</strong>, validar quién los expide, qué utilidad tienen exactamente frente a la postulación, y cuáles son los pasos concretos mediante los cuales podrás solicitarlos y descargarlos para incluirlos de una vez en tu perfil.</p>
 </section>
 
+<!-- Índice de Contenido -->
+<section class="toc-container">
+  <h2>Índice de Contenido</h2>
+  <ul class="toc-list">
+    <li>
+      <a href="#generales">Documentos Generales SIMO</a>
+      <ul class="toc-sublist">
+        <li><a href="#licencia-conduccion">Licencia de conducción</a></li>
+        <li><a href="#tarjeta-profesional">Tarjeta profesional</a></li>
+        <li><a href="#pruebas-icfes">Resultado pruebas ICFES</a></li>
+        <li><a href="#libreta-militar">Libreta militar</a></li>
+        <li><a href="#certificado-idiomas">Examen de idiomas</a></li>
+        <li><a href="#certificado-electoral">Certificado electoral</a></li>
+        <li><a href="#certificado-cap">Certificado CAP</a></li>
+        <li><a href="#certificado-arraigo">Certificado de arraigo</a></li>
+        <li><a href="#tarjeta-conducta">Tarjeta de conducta</a></li>
+        <li><a href="#reconocimientos-inpec">Reconocimientos del INPEC</a></li>
+        <li><a href="#evaluacion-desempeno">Evaluación del desempeño</a></li>
+        <li><a href="#certificado-vecindad">Certificado de vecindad</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#registros-estado">Registros del Estado</a>
+      <ul class="toc-sublist">
+        <li><a href="#reintegracion">Sistema de Reintegración (SIR)</a></li>
+        <li><a href="#registro-victimas">Registro Único Víctimas (RUV)</a></li>
+        <li><a href="#desplazados">Registro Desplazados (RUPD)</a></li>
+        <li><a href="#hoja-vida-funcion">Formato Hoja de Vida</a></li>
+        <li><a href="#competencia-laboral">Competencias Laborales (SENA)</a></li>
+        <li><a href="#rethus">Registro RETHUS (Salud)</a></li>
+        <li><a href="#licencia-sst">Licencia SST</a></li>
+        <li><a href="#certificacion-sena">Certificación SENA</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#licencias-aeronauticas">Licencias Aeronáuticas</a>
+      <ul class="toc-sublist">
+        <li><a href="#aeronauticas">Licencias y vuelo</a></li>
+        <li><a href="#licencias-tecnicas-aero">Licencias técnicas</a></li>
+        <li><a href="#devolucion-430-2016">Devolución 430-2016</a></li>
+      </ul>
+    </li>
+    <li><a href="#faq">Preguntas Frecuentes (FAQ)</a></li>
+  </ul>
+</section>
+
 <section id="generales">
   <h2>🪪 Documentos Generales SIMO</h2>
   <p>Esta categoría engloba los documentos transversales que te pedirán en casi cualquier vacante, dependiendo de tu experiencia, área de formación o requerimientos operacionales concretos solicitados por la entidad.</p>

@@ -814,3 +814,62 @@ table a {
     height: 45px;
   }
 }
+
+/* Índice de Contenidos (TOC) */
+.toc-container {
+  background-color: #f8fbff;
+  border-left: 4px solid #007bff;
+  padding: 1.5rem 2rem;
+}
+.toc-container h2 {
+  font-size: 1.4rem;
+  margin-top: 0;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.toc-list {
+  list-style-type: none;
+  margin-left: 0;
+}
+.toc-list li {
+  margin-bottom: 0.5rem;
+  padding-left: 0;
+}
+.toc-list li::before {
+  display: none !important;
+}
+.toc-list a {
+  text-decoration: none;
+  color: #0059b3;
+  font-weight: 600;
+  transition: color 0.2s;
+  display: flex;
+  align-items: center;
+}
+.toc-list a::before {
+  content: "\2192";
+  margin-right: 8px;
+  color: #007bff;
+}
+.toc-list a:hover {
+  text-decoration: underline;
+  color: #003366;
+}
+.toc-sublist {
+  list-style-type: none;
+  margin-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+.toc-sublist li {
+  margin-bottom: 0.4rem;
+}
+.toc-sublist a {
+  font-weight: 400;
+  font-size: 0.95rem;
+  color: #444;
+}
+.toc-sublist a::before {
+  content: "—";
+  color: #888;
+  margin-right: 6px;
+}
