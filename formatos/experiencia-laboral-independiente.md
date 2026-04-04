@@ -1,0 +1,195 @@
+---
+layout: default
+title: "Certificado de Experiencia Independiente SIMO ✅ Plantilla Editable para Descargar [Año]"
+description: "Aprende cómo certificar tu experiencia laboral independiente o informal ante la CNSC. Aumenta tus puntos en SIMO con nuestro formato y consejos clave."
+permalink: /formatos/experiencia-laboral-independiente/
+---
+
+<section class="hero">
+  <h1>Cómo certificar tu experiencia independiente y ganar puntos en la CNSC (Plantilla Editable para Descargar)</h1>
+  <p>Te compartiremos un consejo clave, legal, y sumamente valioso poco implementado por los aspirantes en los concursos de méritos en Colombia: <strong>Entender cómo funciona la certificación de experiencia cuando has trabajado de forma independiente, informal o por cuenta propia</strong>.</p>
+</section>
+
+<section>
+  <p>En el radar de la masiva inscripción de opciones en la Comisión Nacional del Servicio Civil, cientos de miles de aspirantes desconocen que realizar actividades laborales cotidianas como independientemente (tales como ventas en almacén propio, asesorías, consultorías o desarrollo de un modelo emprendedor) no son tiempos ciegos perdidos; de hecho, <strong>toda esta actividad califica como experiencia plenamente válida si tienes claro cómo se debe certificar</strong>.</p>
+</section>
+
+<section>
+  <h2>¿Qué considera realmente la CNSC como experiencia?</h2>
+  <p>Acorde a la normatividad estricta de la CNSC —apoyada por regulaciones legales del trabajo estatal—, la "experiencia" en la esfera general se define estrictamente como:</p>
+  
+  <blockquote>
+    <p><em>"Los conocimientos, destrezas o habilidades adquiridas objetivamente mediante el ejercicio consecutivo de un empleo o durante la puesta en marcha de un oficio, carrera o arte."</em></p>
+  </blockquote>
+  
+  <p>Dicho esto, bajo ningún parámetro normativo de evaluación de empleos se limita a que el aspirante hubiese fungido únicamente como empleado formal vinculado (con contratos laborales regidos por la ley laboral). A modo de evidencia directa, podemos vislumbrarlo con ejemplos habituales:</p>
+  
+  <article>
+    <h3>Trabajos Informales o Ventas (Emprendimientos Personales)</h3>
+    <p>Un comerciante en línea o vendedor independiente desarrolla y demuestra permanentemente destrezas competentes como:</p>
+    <ul>
+      <li>Estrategias de atención, vinculación y servicio al cliente de alto impacto.</li>
+      <li>Monitoreo, surtido y manejo de su inventario.</li>
+      <li>Control minucioso y gestión gerencial de ingresos y balances.</li>
+    </ul>
+  </article>
+  
+  <article>
+    <h3>Asesorías y Soluciones Digitales o Técnicas</h3>
+    <p>Cualquier persona que gestione honorarios resolviendo un servicio (desde instalación de ordenadores, mecánica hasta marketing digital freelance) tiene total evidencia de desarrollo en:</p>
+    <ul>
+      <li>Planteamiento resolutivo y aplicación de la herramienta en terreno adscrito a tecnologías o sistemas.</li>
+      <li>Administración del respectivo tiempo y del proyecto pactado.</li>
+      <li>Manejo formal de negociaciones por objetivos.</li>
+    </ul>
+  </article>
+
+  <p><strong>Todo este periodo empírico o independiente califica y se contabiliza como experiencia general que sumará meses o años en tu verificación de requisitos</strong> dentro de los entes del concurso de selección territorial.</p>
+</section>
+
+<section>
+  <h2>¿Cómo certificar la experiencia independiente en el SIMO?</h2>
+  <p>Si la condición es que el estado cuente con un garante para certificar que ese tiempo trabajado por fuera de empresas grandes es verídico, la CNSC abre la figura propia para ello: <strong>toda persona natural que desempeñe labores en forma independiente o por cuenta propia deberá presentar y realizar él mismo su declaración mediante un formato o certificación donde conste por escrito las circunstancias que se piden con fuerza de verdad.</strong></p>
+  
+  <h3>Requisitos Estrictos que debes agregar en el Formato de Certificación</h3>
+  <p>Para cargar este perfil al repositorio en línea del SIMO, y sobre todo a fin de que sea aceptado sin dudas por la universidad que auditará todos estos documentos (por cumplimiento del respectivo concurso), el mismo debe incluir explícitamente y bajo esta exactitud de información:</p>
+  <ul class="custom-icons">
+    <li><strong>Fechas exactas del lapso acreditado:</strong> Debes puntualizar la fecha del inicio laboral y el término (Día, Mes, Año). Si la tarea se hace hasta tiempo presente, debes acotar que es a "fecha actual".</li>
+    <li><strong>El nivel de dedicación:</strong> Es vital declarar tu régimen (dedicación a tiempo completo o las específicas horas de tiempo parcial desarrolladas). Este factor de tiempos impacta en qué porcentaje de tu tiempo la universidad calcula para computar esos meses acreditables.</li>
+    <li><strong>Desagregado de funciones específicas:</strong> La certificación debe presentar un listado ordenado o puntos descriptivos amplios sobre el marco en estricto rigor de qué actividades operaba día a día en un cargo hipotético o en esa asignación de emprendimiento lograda por el usuario.</li>
+    <li><strong>Cláusula de Confidencialidad y Juramento:</strong> Es ineludible terminar tu documento afirmando expresamente que este escrito legal tiene vigencia "Bajo la gravedad de juramento" la autenticidad plena sobre todo lo dicho bajo tus compromisos como ciudadano civil.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Ejemplo de certificado de experiencia independiente</h2>
+  <p>Aquí tienes un modelo correctamente estructurado que puedes usar como plantilla editable de descargue:</p>
+  
+  <div style="background: #f9f9f9; padding: 20px; border-left: 4px solid #007bff; margin-bottom: 20px; font-family: monospace; white-space: pre-wrap;">
+<strong>CERTIFICADO DE EXPERIENCIA LABORAL INDEPENDIENTE</strong>
+
+Yo, <strong>[Nombre completo]</strong>, identificado(a) con cédula de ciudadanía No. <strong>[Número]</strong>, declaro bajo la gravedad de juramento que me he desempeñado de manera independiente como <strong>[actividad u oficio]</strong>, desde el <strong>[fecha de inicio]</strong> hasta el <strong>[fecha de finalización o “actualidad”]</strong>, con una dedicación <strong>[tiempo completo / parcial]</strong>.
+
+Durante este tiempo, desarrollé las siguientes funciones:
+- Venta de productos textiles de manera presencial
+- Atención al cliente de forma presencial y telefónica
+- Gestión y control de inventarios
+- Registro y control de ingresos y gastos
+- Elaboración de presupuestos mensuales
+- Manejo de herramientas ofimáticas (Excel, Google Sheets, etc.)
+- Implementación de estrategias de venta en redes sociales (si aplica)
+
+La presente certificación se expide en la ciudad de <strong>[Ciudad]</strong>, a los <strong>[día]</strong> días del mes de <strong>[mes]</strong> del año <strong>[año]</strong>.
+
+<strong>Firma:</strong> ____________________
+<strong>Nombre:</strong> [Nombre completo]
+<strong>Correo electrónico:</strong> [Correo]
+<strong>Teléfono:</strong> [Número]
+  </div>
+</section>
+
+<section>
+  <h2>Recomendaciones Clave para Redactar tu Formato</h2>
+  <p>Dicho de manera clara, tu declaración como autónomo puede salvar tu inscripción, pero debes ser asertivo para no sufrir el descarte de esta prueba vital de acceso durante las etapas de acreditación documental:</p>
+  <ol>
+    <li><strong>Describe siempre funciones que sean 100% reales y de la manera más específica:</strong> Si operabas maquinaria en construcciones por cuenta formal, no escribas “Operar elementos básicos de albañil”, escribe directamente tus maniobras técnicas demostrables bajo responsabilidad en estructuras civiles.</li>
+    <li><strong>Listados con las labores concretas realizadas:</strong> Mientras más detallas a fondo, mucho mayor será el paralelismo que logren observar los examinadores con los requisitos exigidos por el empleo a seleccionar en la plaza vacante SIMO en tu etapa clave (Valoración de antecedentes).</li>
+    <li><strong>Coherencias con la realidad tributaria y civil:</strong> No declares periodos incongruentes, el certificado que extiendas cuenta un peso legal, el afirmar que dedicabas años al tiempo en diferentes especialidades imposibles o paralelas generará rechazo general y suspicacia de falsedad estatal. El tiempo trabajado no se superpone uno doble sobre otro para valer doble puntaje.</li>
+    <li><strong>Transparencia, formalidad y pulcritud:</strong> Dirige correctamente la gramática, elabora tu certificado usando siempre herramientas de procesadores de texto en línea, descárgalo, rubrícalo adecuadamente y en formato con alta visual en PDF guárdalo en tu panel de subidas de registro SIMO usando firma formal acompañada del número del respectivo documento de identificación y firma tradicional.</li>
+  </ol>
+  
+  <div class="cta-whatsapp">
+    <h3>¡No temas a la certificación de años propios!</h3>
+    <p>Muchísimos buenos vacantes de mérito han quedado abandonados tras el rechazo a buenos postulantes sin conocimientos por no contar con una declaración personal. Cuando te encuentres con tu próxima oportunidad del estado usa todos estos enfoques de desarrollo para sumar esos escalafones para triunfar. Si se usa efectivamente, contar y certificar con todo este periodo extra marca la real diferencia final entre avanzar, alcanzar buenos puntos adicionales, o sencillamente quedar atrás tras haber descuidado por temor este aval vital.</p>
+  </div>
+</section>
+
+<section id="faq">
+  <h2>Preguntas Frecuentes (FAQ)</h2>
+  
+  <h3>¿Tengo que adjuntar registros de RUT y Cámara de comercio con mi formato?</h3>
+  <p>La normativa CNSC señala que si la profesión exigida era de la línea administrativa contable y te presentas por tu cuenta, es una excelente ayuda validante acompañar el documento con comprobantes como tu RUT debidamente anexos para justificar, sin embargo la ley de méritos solo exige imperantemente el documento firmado por el propio responsable indicando dedicación y fechas como base obligada mínima y plena para cualquier perfil. Es altamente remendable pero no limitante al subir si eres informal básico.</p>
+  
+  <h3>¿Me vale una declaración de trabajo elaborada en notaría pública?</h3>
+  <p>Sí. Toda acta expedida con los correspondientes avalúos extrajudiciales dictaminados donde se relata tu respectivo desarrollo, fechas y juramentos notariales son tomados bajo la completa validez institucional en calidad de evidencia primaria indubitable.</p>
+</section>
+
+<!-- JSON-LD SEO SIMO -->
+{% assign current_year = site.time | date: "%Y" %}
+{% assign dynamic_headline = page.title | replace: '2024', current_year | replace: '2025', current_year | replace: '2026', current_year | replace: '2027', current_year | replace: '[Año]', current_year | replace: '[AÑO]', current_year | replace: '[año]', current_year %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://guiasimo.com/formatos/experiencia-laboral-independiente/#article",
+      "isPartOf": {
+        "@id": "https://guiasimo.com/#website"
+      },
+      "headline": "{{ dynamic_headline }}",
+      "description": "Comprende y descubre como redactar de manera efectiva tu declaración juramentada para respaldar tiempos de experiencia laboral independientes o cuenta propia.",
+      "image": "https://guiasimo.com/assets/images/isotipo-guiasimo.png",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://guiasimo.com/#organization"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://guiasimo.com/#organization"
+      },
+      "datePublished": "2024-04-03T08:00:00-05:00",
+      "dateModified": "2026-04-03T08:00:00-05:00",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://guiasimo.com/formatos/experiencia-laboral-independiente/"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://guiasimo.com/formatos/experiencia-laboral-independiente/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://guiasimo.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Formatos SIMO",
+          "item": "https://guiasimo.com/formatos/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Experiencia Laboral Independiente"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://guiasimo.com/formatos/experiencia-laboral-independiente/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Tengo que adjuntar registros de RUT y Cámara de comercio con mi formato?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Se recomienda enormemente agregar certificaciones o adjuntos complementarios de soporte como la cámara registrada para dar mayor peso técnico y corporativo de validez en el certificado emitido bajo cuenta propia o independiente."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Me vale una declaración de trabajo elaborada en notaría pública?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Acudir al mecanismo como la declaración juramentada elaborada y certificada extrajudicialmente notarial son documentos de peso probatorio con validez alta ante todas y absolutamente cada una de las universidades validantes de datos laborales."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
