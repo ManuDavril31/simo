@@ -1,0 +1,324 @@
+---
+layout: default
+title: "Calculadora de Puntaje SIMO CNSC ✅ Simula tu Resultado Final [Año]"
+description: "Calcula GRATIS tu puntaje para convocatorias SIMO. Simula resultados de conocimientos, experiencia y educación para asegurar tu vacante en el Estado."
+permalink: /herramientas/calculadora-puntaje/
+---
+
+<section class="hero">
+  <h1>Calculadora de Puntaje SIMO CNSC</h1>
+  <p>Herramienta interactiva para simular tus resultados en las convocatorias de la Comisión Nacional del Servicio Civil.</p>
+</section>
+
+<section class="intro">
+  <p>Entender cómo se ponderan las pruebas es vital para ganar una vacante. Usa nuestra calculadora para sumar tus puntajes de conocimientos, competencias comportamentales y valoración de antecedentes según los pesos asignados en tu OPEC.</p>
+</section>
+
+<!-- Contenedor de la Herramienta -->
+<section>
+  <div class="calc-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem;">
+    
+    <!-- Inputs Card -->
+    <div class="format-card">
+      <h3 style="text-align: left; margin-top: 0; color: #004080; border-bottom: 2px solid #f0f7ff; padding-bottom: 1rem; margin-bottom: 1.5rem; text-transform: none;">⚙️ Configuración de Puntajes</h3>
+      
+      <div class="input-row" style="margin-bottom: 1.2rem;">
+        <label style="display: block; font-weight: 600; margin-bottom: 0.5rem;">Prueba de Conocimientos (60-70% usualmente)</label>
+        <div style="display: flex; gap: 10px; align-items: center;">
+          <input type="number" id="score-knowledge" class="score-input" placeholder="0-100" min="0" max="100" value="70" style="width: 60%; padding: 0.8rem; border: 2px solid #e1e9f5; border-radius: 8px;">
+          <input type="number" id="weight-knowledge" class="weight-input" placeholder="Peso %" min="0" max="100" value="60" style="width: 40%; padding: 0.8rem; border: 2px solid #e1e9f5; border-radius: 8px; font-weight: bold; color: #007bff;">
+        </div>
+      </div>
+
+      <div class="input-row" style="margin-bottom: 1.2rem;">
+        <label style="display: block; font-weight: 600; margin-bottom: 0.5rem;">Competencias Comportamentales</label>
+        <div style="display: flex; gap: 10px; align-items: center;">
+          <input type="number" id="score-behavioral" class="score-input" placeholder="0-100" min="0" max="100" value="80" style="width: 60%; padding: 0.8rem; border: 2px solid #e1e9f5; border-radius: 8px;">
+          <input type="number" id="weight-behavioral" class="weight-input" placeholder="Peso %" min="0" max="100" value="20" style="width: 40%; padding: 0.8rem; border: 2px solid #e1e9f5; border-radius: 8px; font-weight: bold; color: #007bff;">
+        </div>
+      </div>
+
+      <div class="input-row" style="margin-bottom: 1.2rem;">
+        <label style="display: block; font-weight: 600; margin-bottom: 0.5rem;">Antecedentes: Experiencia Laboral</label>
+        <div style="display: flex; gap: 10px; align-items: center;">
+          <input type="number" id="score-experience" class="score-input" placeholder="0-100" min="0" max="100" value="60" style="width: 60%; padding: 0.8rem; border: 2px solid #e1e9f5; border-radius: 8px;">
+          <input type="number" id="weight-experience" class="weight-input" placeholder="Peso %" min="0" max="100" value="10" style="width: 40%; padding: 0.8rem; border: 2px solid #e1e9f5; border-radius: 8px; font-weight: bold; color: #007bff;">
+        </div>
+      </div>
+
+      <div class="input-row" style="margin-bottom: 1.2rem;">
+        <label style="display: block; font-weight: 600; margin-bottom: 0.5rem;">Antecedentes: Formación / Educación</label>
+        <div style="display: flex; gap: 10px; align-items: center;">
+          <input type="number" id="score-education" class="score-input" placeholder="0-100" min="0" max="100" value="60" style="width: 60%; padding: 0.8rem; border: 2px solid #e1e9f5; border-radius: 8px;">
+          <input type="number" id="weight-education" class="weight-input" placeholder="Peso %" min="0" max="100" value="10" style="width: 40%; padding: 0.8rem; border: 2px solid #e1e9f5; border-radius: 8px; font-weight: bold; color: #007bff;">
+        </div>
+      </div>
+
+      <div id="weight-warning" style="background: #fff5f5; border: 1px solid #feb2b2; color: #c53030; padding: 1rem; border-radius: 10px; margin-top: 1.5rem; font-size: 0.9rem; transition: opacity 0.3s; display: none;">
+        ⚠️ <strong>Error en el peso:</strong> La suma de los porcentajes debe ser exactamente 100%. Actual: <span id="weight-total-display">0</span>%
+      </div>
+    </div>
+
+    <!-- Results Card -->
+    <div class="format-card" style="box-shadow: 0 10px 40px rgba(0, 123, 255, 0.1); border: 2px solid #f0f7ff; align-items: center;">
+      <h3 style="margin-top: 0; color: #004080; margin-bottom: 2rem; border-bottom: none; text-transform: none;">🏆 Tu Resultado Final</h3>
+      
+      <div id="score-gauge" style="position: relative; width: 220px; height: 220px; margin-bottom: 2rem;">
+        <svg viewBox="0 0 100 100" style="transform: rotate(-90deg); width: 100%; height: 100%;">
+          <circle cx="50" cy="50" r="45" fill="none" stroke="#f0f7ff" stroke-width="8"></circle>
+          <circle id="progress-circle" cx="50" cy="50" r="45" fill="none" stroke="#007bff" stroke-width="8" stroke-dasharray="282.7" stroke-dashoffset="282.7" stroke-linecap="round" transition="stroke-dashoffset 0.5s ease-out"></circle>
+        </svg>
+        <div id="score-number" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 3rem; font-weight: 900; color: #004080;">0</div>
+      </div>
+
+      <div id="classification-badge" style="padding: 0.6rem 2rem; border-radius: 50px; background: #007bff; color: white; font-weight: 700; font-size: 1.1rem; margin-bottom: 2rem;">CARGANDO...</div>
+
+      <div class="simulator-box" style="width: 100%; background: #f8fbff; border-radius: 15px; padding: 1.2rem; border: 1px dashed #b3d1ff;">
+        <h4 style="margin-top: 0; font-size: 1.1rem; color: #0056b3; text-transform: none; border: none; text-align: left;">🚀 Simulador de Objetivo</h4>
+        <p style="font-size: 0.85rem; color: #667788; margin-bottom: 1rem; text-align: left;">¿Cuánto necesitas en la prueba eliminatoria para alcanzar tu meta?</p>
+        <div style="display: flex; gap: 10px; align-items: center;">
+          <input type="number" id="target-score" placeholder="Ej: 80" value="80" style="width: 50%; padding: 0.7rem; border: 1px solid #d0e1f9; border-radius: 8px;">
+          <button id="btn-simulate" style="width: 50%; padding: 0.7rem; background: #0056b3; color: white; border: none; border-radius: 8px; font-weight: bold; cursor: pointer;">Simular</button>
+        </div>
+        <div id="simulation-result" style="margin-top: 1rem; font-size: 0.9rem; font-weight: bold; color: #004080; display: none;">
+          Necesitas sacar <span id="required-knowledge-score" style="color: #dc3545; font-size: 1.2rem;">0</span> en Conocimientos.
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+<section>
+  <h2>¿Cómo interpretar los resultados de la calculadora?</h2>
+  <p>La CNSC utiliza promedios ponderados. Esto significa que cada prueba tiene un "peso" o porcentaje que define cuánto aporta al total de 100 puntos.</p>
+  
+  <ul>
+    <li><strong>ELIMINATORIO:</strong> Casi siempre, la prueba de Conocimientos es eliminatoria. Si no alcanzas el mínimo (usualmente 65/100), quedas fuera del proceso sin importar qué tan bien te haya ido en lo demás.</li>
+    <li><strong>CLASIFICATORIO:</strong> Las pruebas de antecedentes y comportamentales sirven para subir tu posición en la lista de elegibles.</li>
+  </ul>
+
+  <h3>Pasos para usar la herramienta:</h3>
+  <ol>
+    <li>Busca el Acuerdo de Convocatoria de tu proceso (archivo PDF en SIMO).</li>
+    <li>Ubica la tabla de ponderaciones para tu nivel (Asistencial, Técnico o Profesional).</li>
+    <li>Ingresa esos porcentajes en la columna "Peso %".</li>
+    <li>Escribe tus puntajes reales o proyectados en la columna izquierda.</li>
+  </ol>
+</section>
+
+<section id="faq">
+  <h2>Preguntas Frecuentes (FAQ)</h2>
+  
+  <h3>¿Qué pasa si mi convocatoria no tiene prueba de experiencia?</h3>
+  <p>Simplemente coloca el peso de ese campo en 0% y redistribuye el porcentaje restante en los demás factores para que la suma total sea 100%.</p>
+  
+  <h3>¿Cuál es el puntaje mínimo para ganar una vacante?</h3>
+  <p>No hay un número universal, ya que depende de la competencia y el número de vacantes. Sin embargo, en niveles profesionales, un puntaje total superior a 75-80 suele ser altamente competitivo para entrar en los primeros puestos.</p>
+  
+  <h3>¿La calculadora sirve para la DIAN o INPEC?</h3>
+  <p>Sí, la fórmula de promedio ponderado es el estándar de la CNSC. Solo asegúrate de copiar los pesos porcentuales correctos que figuran en el anexo técnico de tu convocatoria específica.</p>
+</section>
+
+<style>
+  input::-webkit-outer-spin-button, input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+  input[type=number] { -moz-appearance: textfield; }
+  
+  .score-input:focus, .weight-input:focus, #target-score:focus {
+    border-color: #007bff !important;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+  }
+
+  @media (max-width: 768px) {
+    .calc-grid { grid-template-columns: 1fr; }
+  }
+</style>
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Elements
+  const inputs = document.querySelectorAll('.score-input, .weight-input');
+  const warning = document.getElementById('weight-warning');
+  const weightTotalDisplay = document.getElementById('weight-total-display');
+  const scoreNumber = document.getElementById('score-number');
+  const progressCircle = document.getElementById('progress-circle');
+  const classificationBadge = document.getElementById('classification-badge');
+  
+  const targetScoreInput = document.getElementById('target-score');
+  const btnSimulate = document.getElementById('btn-simulate');
+  const simulationResult = document.getElementById('simulation-result');
+  const requiredKnowledgeDisplay = document.getElementById('required-knowledge-score');
+
+  const circleRadius = 45;
+  const circumference = 2 * Math.PI * circleRadius;
+
+  function updateCalculator() {
+    const s_k = parseFloat(document.getElementById('score-knowledge').value) || 0;
+    const w_k = parseFloat(document.getElementById('weight-knowledge').value) || 0;
+    
+    const s_b = parseFloat(document.getElementById('score-behavioral').value) || 0;
+    const w_b = parseFloat(document.getElementById('weight-behavioral').value) || 0;
+    
+    const s_x = parseFloat(document.getElementById('score-experience').value) || 0;
+    const w_x = parseFloat(document.getElementById('weight-experience').value) || 0;
+    
+    const s_e = parseFloat(document.getElementById('score-education').value) || 0;
+    const w_e = parseFloat(document.getElementById('weight-education').value) || 0;
+
+    const totalWeight = w_k + w_b + w_x + w_e;
+    weightTotalDisplay.textContent = totalWeight;
+
+    if (totalWeight !== 100) {
+      warning.style.display = 'block';
+      return;
+    } else {
+      warning.style.display = 'none';
+    }
+
+    const totalScore = (s_k * w_k + s_b * w_b + s_x * w_x + s_e * w_e) / 100;
+    const finalScoreFormatted = totalScore.toFixed(2);
+    
+    // Update Score Number
+    scoreNumber.textContent = Math.round(totalScore);
+    
+    // Update Circular Progress
+    const offset = circumference - (totalScore / 100) * circumference;
+    progressCircle.style.strokeDashoffset = offset;
+
+    // Classification
+    let cls = "BAJO";
+    let color = "#dc3545"; // Red
+    
+    if (totalScore >= 85) { cls = "COMPETITIVO 🔥"; color = "#28a745"; }
+    else if (totalScore >= 75) { cls = "ALTO 🚀"; color = "#17a2b8"; }
+    else if (totalScore >= 65) { cls = "MEDIO ✅"; color = "#ffc107"; }
+
+    classificationBadge.textContent = cls;
+    classificationBadge.style.background = color;
+    progressCircle.style.stroke = color;
+  }
+
+  function simulate() {
+    const target = parseFloat(targetScoreInput.value) || 0;
+    const w_k = parseFloat(document.getElementById('weight-knowledge').value) || 0;
+    
+    const s_b = parseFloat(document.getElementById('score-behavioral').value) || 0;
+    const w_b = parseFloat(document.getElementById('weight-behavioral').value) || 0;
+    
+    const s_x = parseFloat(document.getElementById('score-experience').value) || 0;
+    const w_x = parseFloat(document.getElementById('weight-experience').value) || 0;
+    
+    const s_e = parseFloat(document.getElementById('score-education').value) || 0;
+    const w_e = parseFloat(document.getElementById('weight-education').value) || 0;
+
+    if (w_k === 0) {
+      alert("El peso de la prueba de conocimientos no puede ser 0 para simular.");
+      return;
+    }
+
+    // Formula: Target = (s_k * w_k + s_b * w_b + s_x * w_x + s_e * w_e) / 100
+    // (Target * 100) - (otros) = s_k * w_k
+    // s_k = ((Target * 100) - sumAtoms) / w_k
+    
+    const sumAtoms = (s_b * w_b) + (s_x * w_x) + (s_e * w_e);
+    const required = ((target * 100) - sumAtoms) / w_k;
+    
+    requiredKnowledgeDisplay.textContent = Math.max(0, required).toFixed(1);
+    simulationResult.style.display = 'block';
+
+    if (required > 100) {
+      requiredKnowledgeDisplay.style.color = '#dc3545';
+      requiredKnowledgeDisplay.textContent += " (¡Imposible!)";
+    } else {
+      requiredKnowledgeDisplay.style.color = '#004080';
+    }
+  }
+
+  inputs.forEach(input => input.addEventListener('input', updateCalculator));
+  btnSimulate.addEventListener('click', simulate);
+
+  // Initial call
+  updateCalculator();
+});
+</script>
+
+<!-- JSON-LD SEO SIMO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://guiasimo.com/herramientas/calculadora-puntaje/#article",
+      "isPartOf": {
+        "@id": "https://guiasimo.com/#website"
+      },
+      "headline": "Calculadora de Puntaje SIMO CNSC ✅ Simula tu Resultado Final [Año]",
+      "description": "Calcula GRATIS tu puntaje para convocatorias SIMO. Simula resultados de conocimientos, experiencia y educación para asegurar tu vacante en el Estado.",
+      "image": "https://guiasimo.com/assets/images/isotipo-guiasimo.png",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://guiasimo.com/#organization"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://guiasimo.com/#organization"
+      },
+      "datePublished": "2024-04-04T08:00:00-05:00",
+      "dateModified": "2026-04-04T08:00:00-05:00",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://guiasimo.com/herramientas/calculadora-puntaje/"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://guiasimo.com/herramientas/calculadora-puntaje/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://guiasimo.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Herramientas",
+          "item": "https://guiasimo.com/herramientas/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Calculadora de Puntaje"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://guiasimo.com/herramientas/calculadora-puntaje/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Qué pasa si mi convocatoria no tiene prueba de experiencia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Simplemente coloca el peso de ese campo en 0% y redistribuye el porcentaje restante en los demás factores para que la suma total sea 100%."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cual es el puntaje minimo para ganar una vacante?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No hay un número universal. Sin embargo, en niveles profesionales, un puntaje total superior a 75-80 suele ser altamente competitivo."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>

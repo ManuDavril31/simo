@@ -27,6 +27,11 @@ noindex: true
     <li><a href="/formatos/hoja-vida-funcion-publica/">Hoja de Vida Función Pública</a></li>
   </ul>
 
+  <h2>Herramientas SIMO</h2>
+  <ul class="custom-icons">
+    <li><a href="/herramientas/calculadora-puntaje/">Calculadora de Puntaje y Simulador</a></li>
+  </ul>
+
   <h2>Avisos de Política y Privacidad</h2>
   <ul class="custom-icons">
     <li><a href="/politica-de-privacidad/">Políticas de Privacidad</a></li>

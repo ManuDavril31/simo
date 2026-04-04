@@ -19,7 +19,7 @@ permalink: /
 </section>
 
 <section class="formats-section">
-  <h2>Formatos y Plantillas SIMO Colombia 📄</h2>
+  <h2>Formatos y Herramientas SIMO Colombia 📄</h2>
   <div class="formats-grid">
     <!-- Card 1: Experiencia Independiente -->
     <div class="format-card">
@@ -39,6 +39,16 @@ permalink: /
         <p>El formato obligatorio para registrarte en empleos del Estado. Descarga la versión oficial en PDF y guía paso a paso para llenarla correctamente.</p>
       </div>
       <a href="/formatos/hoja-vida-funcion-publica/" class="btn-card">Ver más</a>
+    </div>
+
+    <!-- Card 3: Calculadora de Puntaje -->
+    <div class="format-card">
+      <div>
+        <span class="icon">🧮</span>
+        <h3>Calculadora de Puntaje SIMO</h3>
+        <p>Simula tu resultado final ponderando tus pruebas y antecedentes. Descubre cuánto necesitas sacar para ganar tu vacante.</p>
+      </div>
+      <a href="/herramientas/calculadora-puntaje/" class="btn-card">Calcular ahora</a>
     </div>
   </div>
 </section>
