@@ -45,6 +45,12 @@ permalink: /formatos/experiencia-laboral-independiente/
   </article>
 
   <p><strong>Todo este periodo empírico o independiente califica y se contabiliza como experiencia general que sumará meses o años en tu verificación de requisitos</strong> dentro de los entes del concurso de selección territorial.</p>
+
+  <div class="btn-download-container">
+    <a href="#descargar-formatos" class="btn-download">
+      <span class="icon">⬇️</span> Descargar Formato Editable en Word (con 5 Ejemplos)
+    </a>
+  </div>
 </section>
 
 <section>
@@ -86,6 +92,12 @@ La presente certificación se expide en la ciudad de <strong>[Ciudad]</strong>, 
 <strong>Correo electrónico:</strong> [Correo]
 <strong>Teléfono:</strong> [Número]
   </div>
+
+  <div class="btn-download-container">
+    <a href="#descargar-formatos" class="btn-download">
+      <span class="icon">⬇️</span> Descargar Plantilla en Word (con 5 Ejemplos)
+    </a>
+  </div>
 </section>
 
 <section>
@@ -112,6 +124,12 @@ La presente certificación se expide en la ciudad de <strong>[Ciudad]</strong>, 
   
   <h3>¿Me vale una declaración de trabajo elaborada en notaría pública?</h3>
   <p>Sí. Toda acta expedida con los correspondientes avalúos extrajudiciales dictaminados donde se relata tu respectivo desarrollo, fechas y juramentos notariales son tomados bajo la completa validez institucional en calidad de evidencia primaria indubitable.</p>
+
+  <div class="btn-download-container">
+    <a href="#descargar-formatos" class="btn-download">
+      <span class="icon">⬇️</span> Descargar Formato Editable en Word (con 5 Ejemplos)
+    </a>
+  </div>
 </section>
 
 <!-- JSON-LD SEO SIMO -->

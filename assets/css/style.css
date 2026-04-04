@@ -284,6 +284,40 @@ section {
   box-shadow: 0 4px 16px rgba(0, 64, 128, 0.13);
 }
 
+/* Botón Estandar de Descarga de Formatos */
+.btn-download-container {
+  text-align: center;
+  margin: 2.5rem 0;
+}
+
+.btn-download {
+  background: linear-gradient(135deg, #0059b3 0%, #003366 100%);
+  color: #fff !important;
+  font-size: 1.15rem;
+  font-weight: 700;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  box-shadow: 0 4px 15px rgba(0, 51, 102, 0.25);
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.btn-download:hover {
+  background: linear-gradient(135deg, #004080 0%, #001a33 100%);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 51, 102, 0.4);
+  border: 2px solid #66b3ff;
+}
+
+.btn-download .icon {
+  font-size: 1.3rem;
+}
+
 /* Footer Moderno */
 .site-footer {
   background: linear-gradient(135deg, #001a33 0%, #002244 100%);
