@@ -15,7 +15,7 @@ permalink: /herramientas/calculadora-puntaje/
 </section>
 
 <!-- Contenedor de la Herramienta -->
-<section>
+<section class="calculator-section">
   <div class="calc-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem;">
     
     <!-- Inputs Card -->
@@ -132,7 +132,11 @@ permalink: /herramientas/calculadora-puntaje/
   }
 
   @media (max-width: 768px) {
-    .calc-grid { grid-template-columns: 1fr; }
+    .calc-grid { grid-template-columns: 1fr !important; gap: 1rem; }
+    .calculator-section { padding: 1rem 0.3rem !important; }
+    .calculator-section .format-card { padding: 1.5rem 0.6rem !important; }
+    .calculator-section label { font-size: 0.9rem !important; line-height: 1.2 !important; }
+    .calculator-section .score-input, .calculator-section .weight-input { padding: 0.6rem !important; font-size: 0.9rem !important; }
   }
 </style>
 

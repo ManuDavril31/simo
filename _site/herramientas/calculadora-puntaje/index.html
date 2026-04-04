@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/css/style.css?v=1775287117" />
+    <link rel="stylesheet" href="/assets/css/style.css?v=1775287757" />
     <script defer src="/assets/js/menu.js"></script>
     <script defer src="/assets/js/convocatorias-sheet.js"></script>
     
@@ -95,7 +95,7 @@
 </section>
 
 <!-- Contenedor de la Herramienta -->
-<section>
+<section class="calculator-section">
   <div class="calc-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem;">
     
     <!-- Inputs Card -->
@@ -212,7 +212,11 @@
   }
 
   @media (max-width: 768px) {
-    .calc-grid { grid-template-columns: 1fr; }
+    .calc-grid { grid-template-columns: 1fr !important; gap: 1rem; }
+    .calculator-section { padding: 1rem 0.3rem !important; }
+    .calculator-section .format-card { padding: 1.5rem 0.6rem !important; }
+    .calculator-section label { font-size: 0.9rem !important; line-height: 1.2 !important; }
+    .calculator-section .score-input, .calculator-section .weight-input { padding: 0.6rem !important; font-size: 0.9rem !important; }
   }
 </style>
 
