@@ -32,6 +32,11 @@ noindex: true
     <li><a href="/herramientas/calculadora-puntaje/">Calculadora de Puntaje y Simulador</a></li>
   </ul>
 
+  <h2>Problemas y Soporte</h2>
+  <ul class="custom-icons">
+    <li><a href="/problemas/cambiar-correo/">Cómo actualizar tu correo en SIMO</a></li>
+  </ul>
+
   <h2>Avisos de Política y Privacidad</h2>
   <ul class="custom-icons">
     <li><a href="/politica-de-privacidad/">Políticas de Privacidad</a></li>
