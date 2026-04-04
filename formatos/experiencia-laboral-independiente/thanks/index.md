@@ -7,7 +7,7 @@ noindex: true
 
 <section class="hero">
   <h1>¡Todo listo! Solo un último paso</h1>
-  <p>Gracias por adquirir tu formato. Para garantizar la seguridad del proceso, ingresa el <strong>ID de transacción</strong> (enviado al correo electrónico que registraste en el pago de Wompi) para habilitar la descarga inmediata.</p>
+  <p>Gracias por adquirir tu formato. Para garantizar la seguridad del proceso, ingresa el <strong>número de transacción</strong> (enviado al correo electrónico que registraste en el pago de Wompi) para habilitar la descarga inmediata.</p>
 </section>
 
 <section id="verification-panel">
@@ -17,8 +17,8 @@ noindex: true
       <h2>Verificar Transacción</h2>
     </div>
     <div class="card-body">
-      <label for="transaction-id">ID de Transacción Wompi:</label>
-      <input type="text" id="transaction-id" placeholder="Ej: 12345-67890-ABCDE" autocomplete="off">
+      <label for="transaction-id">Número de Transacción Wompi:</label>
+      <input type="text" id="transaction-id" placeholder="Ej: 123456789" autocomplete="off">
       <p class="helper-text">Lo encuentras en el correo de confirmación de Wompi o en la pantalla final de pago.</p>
       
       <button id="btn-verify" class="btn-verify">
@@ -230,7 +230,7 @@ document.addEventListener('DOMContentLoaded', function() {
   async function checkTransaction() {
     const id = inputId.value.trim();
     if (!id) {
-      showError('Por favor ingresa un ID válido.');
+      showError('Por favor ingresa un número de transacción válido.');
       return;
     }
 
@@ -249,6 +249,17 @@ document.addEventListener('DOMContentLoaded', function() {
       if (result && result.data) {
         const transaction = result.data;
         
+        // Validación de vigencia de 24 horas
+        const createdAt = new Date(transaction.created_at);
+        const now = new Date();
+        const diffInMs = now - createdAt;
+        const diffInHours = diffInMs / (1000 * 60 * 60);
+
+        if (diffInHours > 24) {
+          showError('Este número de transacción ha expirado. El acceso a la descarga tiene una vigencia de 24 horas desde la creación del pago.');
+          return;
+        }
+
         switch (transaction.status) {
           case 'APPROVED':
             handleSuccess();
@@ -263,10 +274,10 @@ document.addEventListener('DOMContentLoaded', function() {
             showError('La transacción fue anulada.');
             break;
           default:
-            showError('No se pudo verificar el estado de la transacción. Verifica el ID ingresado.');
+            showError('No se pudo verificar el estado de la transacción. Verifica el número ingresado.');
         }
       } else {
-        showError('No se encontró información para este ID de transacción.');
+        showError('No se encontró información para este número de transacción.');
       }
     } catch (error) {
       console.error('Error verificando pago:', error);
