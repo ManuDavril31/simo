@@ -46,8 +46,15 @@ permalink: /formatos/experiencia-laboral-independiente/
 
   <p><strong>Todo este periodo empírico o independiente califica y se contabiliza como experiencia general que sumará meses o años en tu verificación de requisitos</strong> dentro de los entes del concurso de selección territorial.</p>
 
+  <div style="background: #fff5f5; border: 1px solid #feb2b2; border-radius: 12px; padding: 1.5rem; text-align: center; max-width: 100%; margin: 1.5rem auto; box-shadow: 0 4px 10px rgba(229, 62, 62, 0.03);">
+    <h3 style="color: #c53030; margin-top: 0; margin-bottom: 0.5rem; font-size: 1.1rem; text-transform: none;">⚠️ Aviso sobre el uso de la Plantilla</h3>
+    <p style="color: #9b2c2c; margin-bottom: 0; font-size: 0.95rem; text-align: center; line-height: 1.6;">
+      La información presentada en esta sección y el uso de nuestra plantilla no implican que la experiencia laboral independiente será considerada en su totalidad dentro del proceso de evaluación. Sin embargo, este tipo de experiencia puede ser tenida en cuenta de manera parcial o total, dependiendo de los criterios establecidos por la entidad o el contexto específico de evaluación.
+    </p>
+  </div>
+
   <div class="btn-download-container">
-    <a href="#descargar-formatos" class="btn-download">
+    <a href="https://checkout.wompi.co/l/f5JBgO" class="btn-download">
       <span class="icon">⬇️</span> Descargar Formato Editable en Word (con 5 Ejemplos)
     </a>
   </div>
@@ -93,8 +100,14 @@ La presente certificación se expide en la ciudad de <strong>[Ciudad]</strong>, 
 <strong>Teléfono:</strong> [Número]
   </div>
 
+  <div style="background: #fff5f5; border: 1px solid #feb2b2; border-radius: 12px; padding: 1.5rem; text-align: center; max-width: 100%; margin: 1.5rem auto; box-shadow: 0 4px 10px rgba(229, 62, 62, 0.03);">
+    <p style="color: #9b2c2c; margin-bottom: 0; font-size: 0.95rem; text-align: center; line-height: 1.6;">
+      <strong>⚠️ Nota Importante:</strong> La información presentada en esta sección y el uso de nuestra plantilla no implican que la experiencia laboral independiente será considerada en su totalidad dentro del proceso de evaluación. Sin embargo, este tipo de experiencia puede ser tenida en cuenta de manera parcial o total, dependiendo de los criterios establecidos por la entidad o el contexto específico de evaluación.
+    </p>
+  </div>
+
   <div class="btn-download-container">
-    <a href="#descargar-formatos" class="btn-download">
+    <a href="https://checkout.wompi.co/l/f5JBgO" class="btn-download">
       <span class="icon">⬇️</span> Descargar Plantilla en Word (con 5 Ejemplos)
     </a>
   </div>
@@ -125,8 +138,14 @@ La presente certificación se expide en la ciudad de <strong>[Ciudad]</strong>, 
   <h3>¿Me vale una declaración de trabajo elaborada en notaría pública?</h3>
   <p>Sí. Toda acta expedida con los correspondientes avalúos extrajudiciales dictaminados donde se relata tu respectivo desarrollo, fechas y juramentos notariales son tomados bajo la completa validez institucional en calidad de evidencia primaria indubitable.</p>
 
+  <div style="background: #fff5f5; border: 1px solid #feb2b2; border-radius: 12px; padding: 1.5rem; text-align: center; max-width: 100%; margin: 1.5rem auto; box-shadow: 0 4px 10px rgba(229, 62, 62, 0.03);">
+    <p style="color: #9b2c2c; margin-bottom: 0; font-size: 0.95rem; text-align: center; line-height: 1.6;">
+      <strong>⚠️ Nota:</strong> La información presentada en esta sección y el uso de nuestra plantilla no implican que la experiencia laboral independiente será considerada en su totalidad dentro del proceso de evaluación. Sin embargo, este tipo de experiencia puede ser tenida en cuenta de manera parcial o total, dependiendo de los criterios establecidos por la entidad o el contexto específico de evaluación.
+    </p>
+  </div>
+
   <div class="btn-download-container">
-    <a href="#descargar-formatos" class="btn-download">
+    <a href="https://checkout.wompi.co/l/f5JBgO" class="btn-download">
       <span class="icon">⬇️</span> Descargar Formato Editable en Word (con 5 Ejemplos)
     </a>
   </div>
