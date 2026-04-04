@@ -55,7 +55,7 @@ permalink: /formatos/experiencia-laboral-independiente/
 
   <div class="btn-download-container">
     <a href="https://checkout.wompi.co/l/f5JBgO" class="btn-download">
-      <span class="icon">⬇️</span> Descargar Plantilla en Word (con 5 Ejemplos) + un instructivo paso a paso para llenarlo correctamente
+      <span class="icon">⬇️</span> Descarga la plantilla en Word (incluye 5 ejemplos) + un instructivo paso a paso para completarla correctamente
     </a>
   </div>
 </section>
@@ -108,7 +108,7 @@ La presente certificación se expide en la ciudad de <strong>[Ciudad]</strong>, 
 
   <div class="btn-download-container">
     <a href="https://checkout.wompi.co/l/f5JBgO" class="btn-download">
-      <span class="icon">⬇️</span> Descargar Plantilla en Word (con 5 Ejemplos) + un instructivo paso a paso para llenarlo correctamente
+      <span class="icon">⬇️</span> Descarga la plantilla en Word (incluye 5 ejemplos) + un instructivo paso a paso para completarla correctamente
     </a>
   </div>
 </section>
@@ -146,7 +146,7 @@ La presente certificación se expide en la ciudad de <strong>[Ciudad]</strong>, 
 
   <div class="btn-download-container">
     <a href="https://checkout.wompi.co/l/f5JBgO" class="btn-download">
-      <span class="icon">⬇️</span> Descargar Plantilla en Word (con 5 Ejemplos) + un instructivo paso a paso para llenarlo correctamente
+      <span class="icon">⬇️</span> Descarga la plantilla en Word (incluye 5 ejemplos) + un instructivo paso a paso para completarla correctamente
     </a>
   </div>
 </section>
