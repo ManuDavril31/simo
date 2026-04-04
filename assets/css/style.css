@@ -886,13 +886,15 @@ table a {
 }
 
 /* Sección de Formatos en la Home */
-.formats-section {
+.formats-section, 
+.herramientas-section {
   padding: 4rem 2rem;
   background: linear-gradient(180deg, #ffffff 0%, #f0f7ff 100%);
   text-align: center;
 }
 
-.formats-section h2 {
+.formats-section h2,
+.herramientas-section h2 {
   margin-bottom: 2.5rem;
   font-size: 2rem;
   color: #003366;
@@ -965,7 +967,8 @@ table a {
 }
 
 @media (max-width: 768px) {
-  .formats-section {
+  .formats-section,
+  .herramientas-section {
     padding: 3rem 1.5rem;
   }
   

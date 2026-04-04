@@ -19,7 +19,7 @@ permalink: /
 </section>
 
 <section class="formats-section">
-  <h2>Formatos y Herramientas SIMO Colombia 📄</h2>
+  <h2>Formatos SIMO Colombia 📄</h2>
   <div class="formats-grid">
     <!-- Card 1: Experiencia Independiente -->
     <div class="format-card">
@@ -40,7 +40,12 @@ permalink: /
       </div>
       <a href="/formatos/hoja-vida-funcion-publica/" class="btn-card">Ver más</a>
     </div>
+  </div>
+</section>
 
+<section class="herramientas-section">
+  <h2>Herramientas SIMO Colombia 🛠️</h2>
+  <div class="formats-grid">
     <!-- Card 3: Calculadora de Puntaje -->
     <div class="format-card">
       <div>
