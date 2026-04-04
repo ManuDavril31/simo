@@ -18,6 +18,7 @@ noindex: true
     <li><a href="/como-cargar-documentos-simo/">Cómo cargar tus documentos</a></li>
     <li><a href="/otros-documentos/">Otros documentos requeridos en SIMO</a></li>
     <li><a href="/pago-derechos-simo/">Pagos de Derechos PIN</a></li>
+    <li><a href="/analizar-resultados-simo/">Cómo analizar tus resultados SIMO</a></li>
     <li><a href="/contacto/">Contacto Módulo</a></li>
   </ul>
 
