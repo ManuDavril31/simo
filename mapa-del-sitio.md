@@ -21,6 +21,12 @@ noindex: true
     <li><a href="/contacto/">Contacto Módulo</a></li>
   </ul>
 
+  <h2>Formatos SIMO</h2>
+  <ul class="custom-icons">
+    <li><a href="/formatos/experiencia-laboral-independiente/">Certificado Experiencia Independiente</a></li>
+    <li><a href="/formatos/hoja-vida-funcion-publica/">Hoja de Vida Función Pública</a></li>
+  </ul>
+
   <h2>Avisos de Política y Privacidad</h2>
   <ul class="custom-icons">
     <li><a href="/politica-de-privacidad/">Políticas de Privacidad</a></li>
