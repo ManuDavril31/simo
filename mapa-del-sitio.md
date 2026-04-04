@@ -35,6 +35,7 @@ noindex: true
   <h2>Problemas y Soporte</h2>
   <ul class="custom-icons">
     <li><a href="/problemas/cambiar-correo/">Cómo actualizar tu correo en SIMO</a></li>
+    <li><a href="/problemas/recuperar-contrasena/">Recuperar tu contraseña en SIMO</a></li>
   </ul>
 
   <h2>Avisos de Política y Privacidad</h2>
