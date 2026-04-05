@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/css/style.css?v=1775421080" />
+    <link rel="stylesheet" href="/assets/css/style.css?v=1775423894" />
     <script defer src="/assets/js/menu.js"></script>
     <script defer src="/assets/js/convocatorias-sheet.js"></script>
     
@@ -61,7 +61,13 @@
       <nav>
         <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
         <ul class="nav-links">
-          <li><a href="/#convocatorias">Convocatorias</a></li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Convocatorias ▾</a>
+            <ul class="dropdown-content">
+              <li><a href="/#convocatorias">Ver todas</a></li>
+              <li><a href="/convocatorias/procuraduria/procuraduria-2026/">Procuraduría 2026</a></li>
+            </ul>
+          </li>
           <li><a href="/simulacros/">Simulacros</a></li>
           <li class="dropdown">
             <a href="javascript:void(0)" class="dropbtn">Guías ▾</a>

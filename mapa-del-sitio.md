@@ -22,6 +22,11 @@ noindex: true
     <li><a href="/contacto/">Contacto Módulo</a></li>
   </ul>
 
+  <h2>Convocatorias CNSC 2026 🟢</h2>
+  <ul class="custom-icons">
+    <li><a href="/convocatorias/procuraduria/procuraduria-2026/">Convocatoria Procuraduría 2026 (Vacantes y Guía)</a></li>
+  </ul>
+
   <h2>Simulacros Gratuitos ✅</h2>
   <ul class="custom-icons">
     <li><a href="/simulacros/">Entrenar con Simulacros CNSC (Principal)</a></li>
