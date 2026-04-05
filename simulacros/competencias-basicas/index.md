@@ -12,16 +12,29 @@ permalink: /simulacros/competencias-basicas/
 
 <div id="intro-card" class="container" style="max-width: 800px; margin: 0 auto;">
   <section class="instructions-card">
-    <h3>📝 Instrucciones de la Prueba</h3>
-    <ul>
-      <li><strong>Total de preguntas:</strong> 20 de selección múltiple.</li>
-      <li><strong>Tiempo sugerido:</strong> 40 minutos (2 min por pregunta).</li>
-      <li><strong>Áreas evaluadas:</strong> Lógica, Lectura, Matemáticas y Ciudadanas.</li>
-      <li><strong>Dinámica:</strong> Al responder cada pregunta, verás inmediatamente la clave correcta y una explicación detallada.</li>
+    <h3>📝 Configuración y Reglas</h3>
+    <ul style="margin-bottom: 2rem;">
+      <li><strong>Preguntas:</strong> Selección aleatoria (Banco de 100 ítems actualizados).</li>
+      <li><strong>Tiempo:</strong> 2 minutos por pregunta (Relación estándar SIMO).</li>
+      <li><strong>Categorías:</strong> Lógica, Lectura, Ciudadanas, Gestión, Atención e Informática.</li>
     </ul>
-    <p style="text-align: center; margin-top: 2rem;">
-      <button id="start-quiz" class="btn-download" style="cursor: pointer;">
-        🚀 Comenzar Simulacro Ahora
+
+    <div style="background: #fff; padding: 1.5rem; border-radius: 8px; border: 1px solid #ffe0b2; margin-bottom: 2rem;">
+      <label for="quiz-length" style="display: block; font-weight: 700; color: #e65100; margin-bottom: 10px;">
+        ¿Cuántas preguntas deseas responder hoy?
+      </label>
+      <select id="quiz-length" style="width: 100%; padding: 12px; border-radius: 6px; border: 2px solid #ffcc80; font-size: 1.1rem; font-family: 'Poppins', sans-serif; cursor: pointer; outline: none;">
+        <option value="10">10 Preguntas (Rápido - 20 min)</option>
+        <option value="20" selected>20 Preguntas (Estándar - 40 min)</option>
+        <option value="40">40 Preguntas (Intensivo - 80 min)</option>
+        <option value="50">50 Preguntas (Medio Examen - 100 min)</option>
+        <option value="100">100 Preguntas (Maratón - 200 min)</option>
+      </select>
+    </div>
+
+    <p style="text-align: center;">
+      <button id="start-quiz" class="btn-download" style="cursor: pointer; width: 100%; max-width: 400px;">
+        🚀 Comenzar Prueba Dinámica
       </button>
     </p>
   </section>
