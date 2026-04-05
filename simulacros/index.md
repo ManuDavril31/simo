@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Simulacros Pruebas CNSC [Año] ✍️ Practica Gratis"
-description: "Prepárate para las pruebas de mérito de la CNSC con nuestros simulacros gratuitos. Competencias básicas, funcionales y comportamentales para ganar tu plaza."
+title: "Simulacros SIMO CNSC ✅ Prepárate Gratis [2025]"
+description: "Entrena con los mejores simulacros gratuitos para las pruebas de la CNSC ✔️ Lógica, lectura y básicas 👉 ¡Gana tu plaza en el servicio público!"
 permalink: /simulacros/
 ---
 
@@ -34,15 +34,91 @@ permalink: /simulacros/
       <a href="/simulacros/comprension-lectora/" class="btn">Empezar Simulacro</a>
     </div>
 
-  </div>
+</div>
 </section>
 
 <section>
-  <h2>¿Por qué practicar con simulacros?</h2>
-  <p>Las pruebas de la CNSC no solo evalúan conocimientos, sino también la gestión del tiempo y la capacidad de análisis bajo presión. Practicar con antelación te permite:</p>
-  <ul>
-    <li> Familiarizarte con el formato de preguntas de opción múltiple.</li>
-    <li>Identificar temas que requieran un refuerzo de estudio.</li>
-    <li>Reducir la ansiedad el día de la prueba real.</li>
-  </ul>
+  <h2>Preguntas Frecuentes (FAQ)</h2>
+  
+  <h3>¿Los simulacros del SIMO son gratuitos?</h3>
+  <p>Sí, todos los simulacros disponibles en nuestra plataforma son totalmente gratuitos y están diseñados para ayudar a los ciudadanos en su preparación para los concursos de mérito de la CNSC.</p>
+  
+  <h3>¿Con qué frecuencia se actualizan las preguntas?</h3>
+  <p>Actualizamos periódicamente nuestros bancos de preguntas basándonos en las guías oficiales y en el historial de pruebas aplicadas por la CNSC para asegurar que practiques con contenido relevante.</p>
+  
+  <h3>¿Puedo realizar los simulacros desde el celular?</h3>
+  <p>Nuestra plataforma es totalmente responsiva, lo que te permite practicar desde cualquier dispositivo móvil, tablet o computadora con acceso a internet.</p>
 </section>
+
+<!-- JSON-LD SEO SIMO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://guiasimo.com/simulacros/#article",
+      "isPartOf": {
+        "@id": "https://guiasimo.com/#website"
+      },
+      "headline": "Simulacros SIMO CNSC ✅ Prepárate Gratis [2025]",
+      "description": "Entrena con los mejores simulacros gratuitos para las pruebas de la CNSC ✔️ Lógica, lectura y básicas 👉 ¡Gana tu plaza en el servicio público!",
+      "image": "https://guiasimo.com/assets/images/logo-guiasimo.png",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://guiasimo.com/#organization"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://guiasimo.com/#organization"
+      },
+      "datePublished": "2025-01-01T08:00:00-05:00",
+      "dateModified": "2025-04-05T08:00:00-05:00",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://guiasimo.com/simulacros/"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://guiasimo.com/simulacros/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://guiasimo.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Simulacros",
+          "item": "https://guiasimo.com/simulacros/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://guiasimo.com/simulacros/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Los simulacros del SIMO son gratuitos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, todos los simulacros disponibles en nuestra plataforma son totalmente gratuitos y están diseñados para ayudar a los ciudadanos en su preparación para los concursos de mérito de la CNSC."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Con qué frecuencia se actualizan las preguntas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Actualizamos periódicamente nuestros bancos de preguntas basándonos en las guías oficiales y en el historial de pruebas aplicadas por la CNSC para asegurar que practiques con contenido relevante."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>

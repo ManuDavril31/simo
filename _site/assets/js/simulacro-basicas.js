@@ -132,6 +132,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const timerDisplay = document.getElementById('timer-display');
     const progressDisplay = document.getElementById('progress-display');
     const quizLengthSelect = document.getElementById('quiz-length');
+    const quizActive = document.getElementById('quiz-active');
 
     function shuffle(array) {
         let currentIndex = array.length, randomIndex;
@@ -168,33 +169,33 @@ document.addEventListener('DOMContentLoaded', () => {
         let optionsHTML = '';
         shuffledOptions.forEach((opt, i) => {
             optionsHTML += `
-                <li class="option-item">
-                    <button class="option-btn" data-original-index="${opt.originalIndex}">
-                        <span class="option-label">${String.fromCharCode(65 + i)})</span>
+                <div style="margin-bottom: 0.8rem;">
+                    <button class="quiz-engine-option" data-original-index="${opt.originalIndex}">
+                        <span style="font-weight:700; margin-right:10px;">${String.fromCharCode(65 + i)})</span>
                         ${opt.text}
                     </button>
-                </li>
+                </div>
             `;
         });
 
         quizContent.innerHTML = `
-            <div class="question-card animate-fade">
-                <span class="badge" style="background: #eef2f7; color: #0059b3; padding: 4px 12px; border-radius: 20px; font-size: 0.85rem; margin-bottom: 10px; display: inline-block;">${q.category}</span>
-                <p class="question-text">${q.question}</p>
-                <ul class="options-list">
+            <div style="animation: fadeIn 0.4s ease;">
+                <span style="background: #eef2f7; color: #0059b3; padding: 4px 12px; border-radius: 20px; font-size: 0.85rem; margin-bottom: 10px; display: inline-block; font-weight:600;">${q.category}</span>
+                <p style="font-size: 1.2rem; font-weight: 600; color: #003366; margin-bottom: 1.5rem; line-height: 1.6;">${q.question}</p>
+                <div class="quiz-engine-options">
                     ${optionsHTML}
-                </ul>
-                <div class="explanation-box" id="explanation-${index}">
-                    <h4>💡 Explicación:</h4>
-                    <p>${q.explanation}</p>
                 </div>
-            </div>
-            <div class="quiz-footer">
-                <button id="next-btn" class="btn" style="display: none; width: 100%;">Siguiente Pregunta</button>
+                <div class="quiz-engine-explanation" id="explanation-${index}">
+                    <h4 style="margin:0 0 0.5rem 0; color:#2e7d32;">💡 Explicación:</h4>
+                    <p style="margin:0; color:#444;">${q.explanation}</p>
+                </div>
+                <div style="margin-top: 2rem; display: flex; justify-content: flex-end;">
+                  <button id="next-btn" class="btn-download" style="display: none; width: 100%; max-width:300px;">Siguiente Pregunta</button>
+                </div>
             </div>
         `;
 
-        document.querySelectorAll('.option-btn').forEach(btn => {
+        document.querySelectorAll('.quiz-engine-option').forEach(btn => {
             btn.addEventListener('click', handleOptionClick);
         });
     }
@@ -202,7 +203,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function handleOptionClick(e) {
         const selectedIndex = parseInt(e.currentTarget.getAttribute('data-original-index'));
         const q = questions[currentQuestionIndex];
-        const buttons = document.querySelectorAll('.option-btn');
+        const buttons = document.querySelectorAll('.quiz-engine-option');
 
         buttons.forEach(btn => btn.disabled = true);
 
@@ -232,7 +233,7 @@ document.addEventListener('DOMContentLoaded', () => {
             currentQuestionIndex++;
             if (currentQuestionIndex < questions.length) {
                 renderQuestion(currentQuestionIndex);
-                window.scrollTo({ top: document.querySelector('.quiz-container').offsetTop - 100, behavior: 'smooth' });
+                window.scrollTo({ top: quizActive.offsetTop - 100, behavior: 'smooth' });
             } else {
                 finishQuiz();
             }
@@ -241,8 +242,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function finishQuiz() {
         clearInterval(timer);
-        quizContent.style.display = 'none';
-        document.querySelector('.quiz-header').style.display = 'none';
+        quizActive.style.display = 'none';
         resultsSummary.style.display = 'block';
 
         const finalScore = Math.round((score / questions.length) * 100);
@@ -264,10 +264,11 @@ document.addEventListener('DOMContentLoaded', () => {
             questions = shuffledPool.slice(0, count);
             
             introCard.style.display = 'none';
-            document.querySelector('.quiz-container').style.display = 'block';
+            quizActive.style.display = 'block';
             
             startTimer(count * 2 * 60);
             renderQuestion(currentQuestionIndex);
         });
     }
 });
+
