@@ -72,11 +72,16 @@ header.scrolled {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1151px) {
+  header.scrolled {
+    flex-wrap: nowrap;
+    padding: 0.3rem 2.5rem;
+  }
+
   header.scrolled .logo {
     flex: 0 0 auto;
     text-align: left;
-    margin: 0; /* Evita que el h1 desalinee el logo */
+    margin: 0;
     padding: 0;
     display: flex;
     align-items: center;
@@ -88,7 +93,8 @@ header.scrolled {
   }
   
   header.scrolled .logo a img {
-    max-height: 40px; /* Un poco más pequeño para achicar más el menú */
+    max-height: 40px;
+    transition: max-height 0.3s ease;
   }
   
   header.scrolled nav {
@@ -100,6 +106,7 @@ header.scrolled {
     border-top: none;
     display: flex;
     align-items: center;
+    overflow: visible;
   }
 }
 
@@ -118,6 +125,7 @@ header.scrolled {
   justify-content: center;
   gap: 1.5rem;
   margin: 0;
+  flex-wrap: nowrap; /* Evita saltos de línea indeseados en desktop */
 }
 
 .nav-links a {
@@ -127,6 +135,7 @@ header.scrolled {
   padding: 0.2rem 1.2rem;
   border-radius: 4px;
   transition: background 0.2s, color 0.2s;
+  white-space: nowrap; /* Evita que la flecha (▾) caiga debajo del texto */
 }
 
 .nav-links a:hover,
@@ -594,7 +603,7 @@ table a {
   color: #004080;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1150px) {
   header, header.scrolled {
     flex-direction: row;
     justify-content: space-between;
@@ -817,7 +826,7 @@ table a {
   transform: translateY(-3px);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1150px) {
   .back-to-top {
     bottom: 20px;
     right: 20px;
@@ -966,7 +975,7 @@ table a {
   background: #0056b3;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1150px) {
   .formats-section,
   .herramientas-section {
     padding: 3rem 1.5rem;
