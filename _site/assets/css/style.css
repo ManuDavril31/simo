@@ -1136,3 +1136,8 @@ table a {
   background: #f0fafa !important;
   border-left: 6px solid #006064 !important;
 }
+
+.intro-categories-highlight {
+  background: #f0f7ff !important;
+  border-top: 4px solid #004080 !important;
+}
