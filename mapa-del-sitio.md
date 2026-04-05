@@ -22,15 +22,23 @@ noindex: true
     <li><a href="/contacto/">Contacto Módulo</a></li>
   </ul>
 
-  <h2>Formatos SIMO</h2>
+  <h2>Simulacros Gratuitos ✅</h2>
   <ul class="custom-icons">
-    <li><a href="/formatos/experiencia-laboral-independiente/">Certificado Experiencia Independiente</a></li>
-    <li><a href="/formatos/hoja-vida-funcion-publica/">Hoja de Vida Función Pública</a></li>
+    <li><a href="/simulacros/">Entrenar con Simulacros CNSC (Principal)</a></li>
+    <li><a href="/simulacros/competencias-basicas/">Prueba de Competencias Básicas</a></li>
+    <li><a href="/simulacros/comprension-lectora/">Prueba de Comprensión Lectora</a></li>
+    <li><a href="/simulacros/razonamiento-logico/">Prueba de Razonamiento Lógico</a></li>
   </ul>
 
-  <h2>Herramientas SIMO</h2>
+  <h2>Formatos SIMO (Descarga)</h2>
   <ul class="custom-icons">
-    <li><a href="/herramientas/calculadora-puntaje/">Calculadora de Puntaje y Simulador</a></li>
+    <li><a href="/formatos/experiencia-laboral-independiente/">Certificado de Experiencia Independiente</a></li>
+    <li><a href="/formatos/hoja-vida-funcion-publica/">Tutorial: Hoja de Vida Función Pública</a></li>
+  </ul>
+
+  <h2>Herramientas SIMO 🛠️</h2>
+  <ul class="custom-icons">
+    <li><a href="/herramientas/calculadora-puntaje/">Calculadora de Puntaje y Simulador de Puestos</a></li>
   </ul>
 
   <h2>Problemas y Soporte</h2>
