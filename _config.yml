@@ -3,3 +3,12 @@ description: Información actualizada sobre convocatorias del sistema SIMO en Co
 baseurl: ""
 url: "https://guiasimo.com"
 theme: null
+
+plugins:
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: "assets"
+    values:
+      sitemap: false

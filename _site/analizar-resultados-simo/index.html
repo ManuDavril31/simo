@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/css/style.css?v=1775751456" />
+    <link rel="stylesheet" href="/assets/css/style.css?v=1776491651" />
     <script defer src="/assets/js/menu.js"></script>
     <script defer src="/assets/js/convocatorias-sheet.js"></script>
     
@@ -100,7 +100,8 @@
       </nav>
     </header>
 
-    <main><section class="hero">
+    <main>
+      <section class="hero">
   <h1>Cómo analizar tus resultados en concursos de mérito (Caso práctico paso a paso)</h1>
   <p>¿Recibiste tus puntajes pero no sabes si son suficientes para ganar? En esta guía analizamos un caso real para que aprendas a interpretar tu posición frente a la competencia.</p>
 </section>
@@ -224,8 +225,8 @@
         "@type": "Organization",
         "@id": "https://guiasimo.com/#organization"
       },
-      "datePublished": "2026-04-09T08:00:00-05:00",
-      "dateModified": "2026-04-09T08:00:00-05:00",
+      "datePublished": "2026-04-18T08:00:00-05:00",
+      "dateModified": "2026-04-18T08:00:00-05:00",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://guiasimo.com/analizar-resultados-simo/"
@@ -302,7 +303,21 @@
 }
 </script>
 
-</main>
+
+
+      
+      <section class="article-author-box">
+        <div class="author-profile">
+          <img src="/assets/images/isotipo-guiasimo.png" alt="Equipo Editorial Guias SIMO" class="author-avatar" loading="lazy">
+          <div class="author-details">
+            <h4 style="margin-top:0; margin-bottom:5px;">Escrito por Equipo Editorial Guias SIMO</h4>
+            <p class="post-date" style="font-size:0.85rem; color:#666; margin-top:0;">Actualizado el: 18/04/2026</p>
+            <p class="author-bio" style="font-size:0.95rem; margin-bottom:0;">Expertos en procesos de selección de la CNSC y empleo público en Colombia. Nuestro objetivo es orientarte paso a paso con información transparente y actualizada.</p>
+          </div>
+        </div>
+      </section>
+      
+    </main>
 
     <footer class="site-footer">
       <div class="footer-container">
@@ -335,6 +350,25 @@
         <p>&copy; 2026 Guias SIMO Colombia. Todos los derechos reservados.</p>
       </div>
     </footer>
+
+    <!-- Cookie Banner -->
+    <div id="cookie-banner" class="cookie-banner" style="display:none;">
+      <div class="cookie-content">
+        <p>Utilizamos cookies propias y de terceros, incluido Google, para mostrarte anuncios personalizados y analizar el tráfico. Al seguir navegando, aceptas nuestra <a href="/politica-de-privacidad/">Política de Privacidad</a>.</p>
+        <button id="accept-cookies" class="btn btn-cookie">Entendido</button>
+      </div>
+    </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        if (!localStorage.getItem("cookies_accepted")) {
+          document.getElementById("cookie-banner").style.display = "block";
+        }
+        document.getElementById("accept-cookies").addEventListener("click", function() {
+          localStorage.setItem("cookies_accepted", "true");
+          document.getElementById("cookie-banner").style.display = "none";
+        });
+      });
+    </script>
 
     <!-- Botón Volver Arriba -->
     <button id="backToTop" class="back-to-top" aria-label="Volver arriba" title="Volver arriba">&#8679;</button>

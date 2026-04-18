@@ -186,6 +186,6 @@ permalink: /
   <ul>
     <li><a href="https://simo.cnsc.gov.co/" target="_blank">Portal oficial de SIMO</a></li>
     <li><a href="https://www.cnsc.gov.co/" target="_blank">CNSC</a></li>
-    <li><a href="#">Descargar instructivo</a></li>
+    <li><a href="/otros-documentos/">Descargar instructivos y formatos</a></li>
   </ul>
 </section>

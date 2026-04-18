@@ -27,7 +27,18 @@ noindex: true
 </section>
 
 <section>
-  <h2>3. Aclaración Importante y Aviso Legal</h2>
+  <h2>3. Nuestro Equipo (Conoce a los Autores)</h2>
+  <div class="author-profile" style="display: flex; align-items: center; gap: 20px; background: var(--bg-alt); padding: 20px; border-radius: 8px; margin-top: 15px;">
+    <img src="/assets/images/isotipo-guiasimo.png" alt="Equipo Editorial Guias SIMO" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;">
+    <div>
+      <h3 style="margin: 0 0 10px 0; color: var(--primary);">Equipo Editorial Guias SIMO</h3>
+      <p style="margin: 0; font-size: 0.95rem; line-height: 1.5;">Somos un grupo de profesionales colombianos apasionados por la educación cívica y la democratización del acceso al empleo público. Con años de experiencia analizando los procesos de la CNSC y participando en concursos de méritos, nos dedicamos a traducir documentación técnica en guías sencillas, prácticas y accesibles. Nuestro compromiso es brindarte información verificada y experta para que logres tus metas profesionales.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>4. Aclaración Importante y Aviso Legal</h2>
   <p>Queremos ser completamente transparentes con nuestros usuarios: <strong>Este es un sitio web de carácter puramente informativo e independiente.</strong></p> 
 
   <p>No tenemos ninguna afiliación oficial, no somos una entidad gubernamental, y no representamos de ninguna manera a la <strong>Comisión Nacional del Servicio Civil (CNSC)</strong> ni a ninguna otra institución del estado colombiano. Toda la información aquí proporcionada se basa en la experiencia, el análisis de documentación pública, y el desarrollo de material educativo gratuito para el beneficio de los aspirantes a cargos públicos.</p>

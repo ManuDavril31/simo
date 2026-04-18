@@ -102,7 +102,22 @@
       </nav>
     </header>
 
-    <main>{{ content }}</main>
+    <main>
+      {{ content }}
+
+      {% if page.url != '/' and page.noindex != true and page.url != '/simulacros/' %}
+      <section class="article-author-box">
+        <div class="author-profile">
+          <img src="/assets/images/isotipo-guiasimo.png" alt="Equipo Editorial Guias SIMO" class="author-avatar" loading="lazy">
+          <div class="author-details">
+            <h4 style="margin-top:0; margin-bottom:5px;">Escrito por Equipo Editorial Guias SIMO</h4>
+            <p class="post-date" style="font-size:0.85rem; color:#666; margin-top:0;">Actualizado el: {{ site.time | date: "%d/%m/%Y" }}</p>
+            <p class="author-bio" style="font-size:0.95rem; margin-bottom:0;">Expertos en procesos de selección de la CNSC y empleo público en Colombia. Nuestro objetivo es orientarte paso a paso con información transparente y actualizada.</p>
+          </div>
+        </div>
+      </section>
+      {% endif %}
+    </main>
 
     <footer class="site-footer">
       <div class="footer-container">
@@ -135,6 +150,25 @@
         <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. Todos los derechos reservados.</p>
       </div>
     </footer>
+
+    <!-- Cookie Banner -->
+    <div id="cookie-banner" class="cookie-banner" style="display:none;">
+      <div class="cookie-content">
+        <p>Utilizamos cookies propias y de terceros, incluido Google, para mostrarte anuncios personalizados y analizar el tráfico. Al seguir navegando, aceptas nuestra <a href="/politica-de-privacidad/">Política de Privacidad</a>.</p>
+        <button id="accept-cookies" class="btn btn-cookie">Entendido</button>
+      </div>
+    </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        if (!localStorage.getItem("cookies_accepted")) {
+          document.getElementById("cookie-banner").style.display = "block";
+        }
+        document.getElementById("accept-cookies").addEventListener("click", function() {
+          localStorage.setItem("cookies_accepted", "true");
+          document.getElementById("cookie-banner").style.display = "none";
+        });
+      });
+    </script>
 
     <!-- Botón Volver Arriba -->
     <button id="backToTop" class="back-to-top" aria-label="Volver arriba" title="Volver arriba">&#8679;</button>

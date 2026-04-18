@@ -35,8 +35,10 @@ noindex: true
 
 <section>
   <h2>3. Escríbenos Directamente</h2>
-  <p>Si tu duda se alinea con nuestros propósitos de apoyo, o presentas alguna otra inquietud sobre nuestro portal, la vía más directa para ponerte en contacto y charlar con nosotros es mediante WhatsApp.</p>
+  <p>Si tu duda se alinea con nuestros propósitos de apoyo, o presentas alguna otra inquietud sobre nuestro portal, la vía más directa para ponerte en contacto y charlar con nosotros es mediante WhatsApp o enviándonos un correo electrónico.</p>
   
+  <p style="font-size: 1.1rem;">📧 <strong>Correo Electrónico:</strong> <a href="mailto:contacto@guiasimo.com">contacto@guiasimo.com</a></p>
+
   {% include cta-whatsapp.html 
     title="Atención al usuario por WhatsApp" 
     text="Escríbenos a nuestra línea de WhatsApp y te brindaremos apoyo con nuestro material." 

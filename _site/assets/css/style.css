@@ -1150,3 +1150,73 @@ table a {
   background: #f0f7ff !important;
   border-top: 4px solid #004080 !important;
 }
+
+/* --- AD SENSE & E-E-A-T STYLES --- */
+section.article-author-box {
+  background-color: #f8fbff;
+  border-color: #cce6ff;
+  margin-top: 3.5rem;
+}
+
+.author-profile {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.article-author-box .author-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin: 0;
+}
+
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 34, 68, 0.95);
+  backdrop-filter: blur(5px);
+  color: white;
+  padding: 15px 20px;
+  box-shadow: 0 -4px 10px rgba(0,0,0,0.2);
+  z-index: 9999;
+  text-align: center;
+}
+
+.cookie-banner p {
+  color: white;
+  margin: 0 0 10px 0;
+  font-size: 0.9rem;
+}
+
+.cookie-banner a {
+  color: #66b3ff;
+  text-decoration: underline;
+}
+
+.btn-cookie {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  margin-top: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-cookie:hover {
+  background: #0059b3;
+}
+
+@media (max-width: 600px) {
+  .article-author-box .author-profile {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
